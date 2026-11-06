@@ -1,0 +1,309 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "enum": [
+        "1.0",
+        "1.1"
+      ]
+    },
+    "session_id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "created_utc": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "clock": {
+      "type": "object",
+      "properties": {
+        "kind": {
+          "const": "perf_counter_ns"
+        },
+        "origin_ns": {
+          "type": "integer",
+          "minimum": 0
+        }
+      },
+      "required": [
+        "kind",
+        "origin_ns"
+      ],
+      "additionalProperties": false
+    },
+    "window": {
+      "type": "object",
+      "properties": {
+        "hwnd": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "pid": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "left": {
+          "type": "integer"
+        },
+        "top": {
+          "type": "integer"
+        },
+        "width": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "height": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "focused": {
+          "type": "boolean"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        }
+      },
+      "required": [
+        "hwnd",
+        "pid",
+        "left",
+        "top",
+        "width",
+        "height",
+        "focused",
+        "title"
+      ],
+      "additionalProperties": false
+    },
+    "config": {
+      "type": "object",
+      "properties": {
+        "sample_hz": {
+          "type": "number",
+          "minimum": 0.5,
+          "maximum": 30
+        },
+        "pre_seconds": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 30
+        },
+        "post_seconds": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 30
+        },
+        "max_buffer_frames": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "queue_size": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "all_frames": {
+          "type": "boolean"
+        },
+        "start_key": {
+          "type": "string",
+          "pattern": "^f([1-9]|1[0-9]|2[0-4])$"
+        },
+        "stop_key": {
+          "type": "string",
+          "pattern": "^f([1-9]|1[0-9]|2[0-4])$"
+        },
+        "abort_key": {
+          "type": "string",
+          "pattern": "^f([1-9]|1[0-9]|2[0-4])$"
+        },
+        "allowed_keys": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "keymap": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "video_enabled": {
+          "type": "boolean"
+        },
+        "video_fps": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 60
+        },
+        "video_codec": {
+          "enum": [
+            "auto",
+            "libx264",
+            "h264_msmf",
+            "mp4v"
+          ]
+        },
+        "video_crf": {
+          "type": "integer",
+          "minimum": 12,
+          "maximum": 30
+        },
+        "video_queue_size": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 32
+        },
+        "capture_backend": {"enum": ["wgc", "mss"]},
+        "screenshot_format": {"enum": ["png", "jpg"]},
+        "jpeg_quality": {"type": "integer", "minimum": 40, "maximum": 100},
+        "save_event_png": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "sample_hz",
+        "pre_seconds",
+        "post_seconds",
+        "max_buffer_frames",
+        "queue_size",
+        "all_frames",
+        "start_key",
+        "stop_key",
+        "abort_key",
+        "allowed_keys",
+        "keymap"
+      ],
+      "additionalProperties": false
+    },
+    "status": {
+      "enum": [
+        "recording",
+        "completed",
+        "aborted",
+        "failed"
+      ]
+    },
+    "events_path": {
+      "const": "events.jsonl"
+    },
+    "frames_path": {
+      "const": "frames.jsonl"
+    },
+    "termination_reason": {
+      "type": "string",
+      "minLength": 1
+    },
+    "termination_reason_text": {
+      "type": "string",
+      "minLength": 1,
+      "description": "会话终止原因的中文说明；机器原因码仍保存在 termination_reason 中。"
+    },
+    "end_ns": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "capture": {
+      "type": "object",
+      "properties": {
+        "backend": {"enum": ["wgc", "mss"]},
+        "isolation": {"enum": ["process"]},
+        "timestamp_kind": {"enum": ["callback_arrival_qpc", "grab_start_qpc"]},
+        "client_area_only": {"type": "boolean"}
+      },
+      "required": ["backend", "timestamp_kind", "client_area_only"],
+      "additionalProperties": false
+    },
+    "recording_summary": {
+      "type": "object",
+      "properties": {
+        "started": {"type": "boolean"},
+        "captured_frames": {"type": "integer", "minimum": 0},
+        "input_events": {"type": "integer", "minimum": 0}
+      },
+      "required": ["started", "captured_frames", "input_events"],
+      "additionalProperties": false
+    },
+    "video": {
+      "type": "object",
+      "properties": {
+        "requested_fps": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 60
+        },
+        "captured_frames": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "dropped_frames": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "observed_fps_including_gaps": {
+          "type": "number",
+          "minimum": 0
+        },
+        "segments": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        }
+      },
+      "required": [
+        "requested_fps",
+        "captured_frames",
+        "dropped_frames",
+        "observed_fps_including_gaps",
+        "segments"
+      ],
+      "additionalProperties": false
+    },
+    "screenshots_path": {
+      "const": "screenshots.jsonl"
+    },
+    "derived_from": {
+      "type": "object",
+      "description": "由历史会话导出的视频副本来源，不修改原会话。"
+    }
+  },
+  "required": [
+    "schema_version",
+    "session_id",
+    "created_utc",
+    "clock",
+    "window",
+    "config",
+    "status",
+    "events_path",
+    "frames_path"
+  ],
+  "additionalProperties": false,
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "status": {
+            "enum": [
+              "completed",
+              "aborted",
+              "failed"
+            ]
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "termination_reason",
+          "end_ns"
+        ]
+      }
+    }
+  ]
+}

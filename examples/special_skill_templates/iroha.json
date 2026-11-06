@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.0",
+  "layout_version": "2.0",
+  "student_slug": "iroha",
+  "id": "iroha",
+  "content_id": 155254,
+  "actor_aliases": [
+    "伊吕波"
+  ],
+  "reference_size": [
+    1740,
+    979
+  ],
+  "variants": [
+    {
+      "id": "iroha-toramaru-summon",
+      "phase": "summon_vehicle",
+      "banner_tags": [
+        "上吧，虎丸"
+      ],
+      "cost_kind": "any",
+      "requires_cost_drop": false,
+      "requires_selected_actor": true,
+      "card_rotation": "optional",
+      "required_visual_fields": {},
+      "validation_status": "user_capture_not_independently_verified"
+    }
+  ],
+  "revision": 1,
+  "scope_note": "用户本地截图计划；不包含图片。请用未用于制作模板的新录制验证识别。",
+  "assets": [
+    {
+      "group": "portraits",
+      "tag": "基础卡面",
+      "image": "portraits/base-card-001.png",
+      "asset_key": "base-card",
+      "expected_size": [
+        80,
+        61
+      ],
+      "offline_identity": true,
+      "suggested_roi": [
+        1318,
+        812,
+        1398,
+        873
+      ]
+    },
+    {
+      "group": "cards",
+      "tag": "召唤虎丸卡",
+      "image": "cards/form-card-001.png",
+      "asset_key": "form-card",
+      "expected_size": [
+        125,
+        170
+      ],
+      "reference_only": true,
+      "optional": true,
+      "suggested_roi": [
+        1303,
+        765,
+        1428,
+        935
+      ]
+    },
+    {
+      "group": "banners",
+      "tag": "上吧，虎丸",
+      "image": "banners/summon-vehicle-001.png",
+      "asset_key": "summon-vehicle",
+      "expected_size": [
+        243,
+        28
+      ],
+      "suggested_roi": [
+        90,
+        241,
+        333,
+        269
+      ]
+    }
+  ],
+  "special_mechanics": true
+}

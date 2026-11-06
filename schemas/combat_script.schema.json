@@ -1,0 +1,508 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "selected_team": {
+      "type": "object",
+      "required": [
+        "schema_version",
+        "students"
+      ],
+      "properties": {
+        "schema_version": {
+          "const": "1.0"
+        },
+        "students": {
+          "type": "array",
+          "minItems": 6,
+          "maxItems": 6,
+          "items": {
+            "type": "object",
+            "required": [
+              "content_id"
+            ],
+            "properties": {
+              "content_id": {
+                "type": "integer",
+                "minimum": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "schema_version": {
+      "const": "1.0"
+    },
+    "script_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "revision": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "recording_session_id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "reference_resolution": {
+      "type": "object",
+      "properties": {
+        "width": {
+          "const": 1280
+        },
+        "height": {
+          "const": 720
+        }
+      },
+      "required": [
+        "width",
+        "height"
+      ],
+      "additionalProperties": false
+    },
+    "keymap": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "time_anchors": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "t_ns": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "remaining_ms": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "uncertainty_ms": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "source_observation_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "t_ns",
+          "remaining_ms",
+          "uncertainty_ms",
+          "source_observation_id"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "corrections": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "observation_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "value": {},
+          "reason": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "observation_id",
+          "value",
+          "reason"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "actions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "kind": {
+            "enum": [
+              "cast_skill",
+              "set_speed",
+              "set_auto",
+              "cancel_selection",
+              "wait",
+              "skip_transition",
+              "observe_auto_skill"
+            ]
+          },
+          "ignored": {
+            "type": "boolean"
+          },
+          "review_status": {
+            "enum": [
+              "needs_review",
+              "confirmed"
+            ]
+          },
+          "source_event_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true
+          },
+          "source_frame_ids": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true
+          },
+          "historical_t_ns": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 0
+          },
+          "trigger": {
+            "type": "object",
+            "properties": {
+              "after_previous": {
+                "type": "boolean",
+                "description": "秒接上一条启用技能；忽略本动作倒计时触发，保留费用和卡牌条件"
+              },
+              "strict_time": {
+                "type": "boolean",
+                "description": "必须严格按本行倒计时释放，与秒接互斥"
+              },
+              "strict_tolerance_ms": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 500,
+                "description": "严格卡点的迟到误差上限，游戏毫秒，默认100；提前侧强制为0"
+              },
+              "strict_early_tolerance_ms": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 40,
+                "description": "兼容旧轴的提前容差字段；执行时忽略其旧值，严格卡点一律使用0毫秒提前容差"
+              },
+              "chain_timeout_ms": {
+                "type": "integer",
+                "minimum": 50,
+                "maximum": 3000,
+                "description": "旧版抢接窗口，保留读取兼容；已不用于限制费用和冷却等待"
+              },
+              "chain_wait_timeout_ms": {
+                "type": "integer",
+                "minimum": 50,
+                "maximum": 120000,
+                "description": "秒接等待费用、可选卡面与冷却的现实时间上限，默认至少10000毫秒"
+              },
+              "remaining_ms": {
+                "type": [
+                  "integer",
+                  "null"
+                ],
+                "minimum": 0
+              },
+              "time_tolerance_ms": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "conditions": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "field": {
+                      "enum": [
+                        "remaining_ms",
+                        "ex_cost",
+                        "skill_card",
+                        "boss_hp",
+                        "boss_phase",
+                        "speed",
+                        "auto",
+                        "visual"
+                      ]
+                    },
+                    "op": {
+                      "enum": [
+                        "eq",
+                        "gte",
+                        "lte",
+                        "present"
+                      ]
+                    },
+                    "value": {
+                      "type": [
+                        "string",
+                        "number",
+                        "boolean"
+                      ]
+                    },
+                    "max_age_ms": {
+                      "type": "integer",
+                      "minimum": 0
+                    },
+                    "min_confidence": {
+                      "type": "number",
+                      "minimum": 0,
+                      "maximum": 1
+                    }
+                  },
+                  "required": [
+                    "field",
+                    "op",
+                    "value",
+                    "max_age_ms",
+                    "min_confidence"
+                  ],
+                  "additionalProperties": false
+                }
+              },
+              "timeout_ms": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "on_failure": {
+                "enum": [
+                  "pause",
+                  "abort"
+                ]
+              }
+            },
+            "required": [
+              "remaining_ms",
+              "time_tolerance_ms",
+              "conditions",
+              "timeout_ms",
+              "on_failure"
+            ],
+            "additionalProperties": false
+          },
+          "skill": {
+            "type": "object",
+            "properties": {
+              "slot": {
+                "type": [
+                  "integer",
+                  "null"
+                ],
+                "minimum": 0,
+                "maximum": 2
+              },
+              "identity": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            },
+            "required": [],
+            "additionalProperties": false
+          },
+          "target": {
+            "type": "object",
+            "properties": {
+              "kind": {
+                "enum": [
+                  "point",
+                  "ally",
+                  "enemy"
+                ]
+              },
+              "point": {
+                "type": "array",
+                "items": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 1
+                },
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "identity": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            },
+            "required": [
+              "kind",
+              "point",
+              "identity"
+            ],
+            "additionalProperties": false
+          },
+          "drag_path": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "offset_ns": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "point": {
+                  "type": "array",
+                  "items": {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "minItems": 2,
+                  "maxItems": 2
+                }
+              },
+              "required": [
+                "offset_ns",
+                "point"
+              ],
+              "additionalProperties": false
+            },
+            "minItems": 2
+          },
+          "speed": {
+            "enum": [
+              1,
+              2,
+              3
+            ]
+          },
+          "auto": {
+            "type": [
+              "boolean",
+              "null"
+            ]
+          },
+          "notes": {
+            "type": "string"
+          },
+          "transition": {
+            "type": "object",
+            "properties": {
+              "window_ms": {
+                "type": "integer",
+                "minimum": 100,
+                "maximum": 60000
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "id",
+          "kind",
+          "ignored",
+          "review_status",
+          "source_event_ids",
+          "source_frame_ids",
+          "historical_t_ns",
+          "trigger",
+          "notes"
+        ],
+        "additionalProperties": false,
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "kind": {
+                  "const": "cast_skill"
+                }
+              }
+            },
+            "then": {
+              "required": [
+                "skill",
+                "target"
+              ],
+              "properties": {
+                "skill": {
+                  "anyOf": [
+                    {
+                      "required": [
+                        "slot"
+                      ],
+                      "properties": {
+                        "slot": {
+                          "type": "integer"
+                        }
+                      }
+                    },
+                    {
+                      "required": [
+                        "identity"
+                      ],
+                      "properties": {
+                        "identity": {
+                          "type": "string",
+                          "minLength": 1
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "kind": {
+                  "const": "set_speed"
+                }
+              }
+            },
+            "then": {
+              "required": [
+                "speed"
+              ]
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "kind": {
+                  "const": "set_auto"
+                }
+              }
+            },
+            "then": {
+              "required": [
+                "auto"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "required": [
+    "schema_version",
+    "script_id",
+    "revision",
+    "recording_session_id",
+    "reference_resolution",
+    "keymap",
+    "time_anchors",
+    "corrections",
+    "actions"
+  ],
+  "additionalProperties": false
+}

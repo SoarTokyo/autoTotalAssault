@@ -1,0 +1,166 @@
+{
+  "schema_version": "1.0",
+  "layout_version": "2.0",
+  "student_slug": "ibuki",
+  "id": "ibuki",
+  "content_id": 611643,
+  "actor_aliases": [
+    "伊吹"
+  ],
+  "reference_size": [
+    1740,
+    979
+  ],
+  "variants": [
+    {
+      "id": "ibuki-base-buff",
+      "phase": "ex_activation",
+      "banner_tags": [
+        "伊吹的画画时间！"
+      ],
+      "cost_kind": "any",
+      "requires_cost_drop": false,
+      "requires_selected_actor": true,
+      "card_rotation": "optional",
+      "required_visual_fields": {},
+      "validation_status": "user_capture_not_independently_verified"
+    },
+    {
+      "id": "ibuki-toramaru-attack",
+      "phase": "vehicle_attack",
+      "banner_tags": [
+        "跟伊吕波前辈开心地巡逻！"
+      ],
+      "cost_kind": "any",
+      "requires_cost_drop": false,
+      "requires_selected_actor": true,
+      "card_rotation": "optional",
+      "required_visual_fields": {},
+      "validation_status": "user_capture_not_independently_verified"
+    }
+  ],
+  "revision": 1,
+  "scope_note": "用户本地截图计划；不包含图片。请用未用于制作模板的新录制验证识别。",
+  "assets": [
+    {
+      "group": "banners",
+      "tag": "伊吹的画画时间！",
+      "image": "banners/ex-activation-001.png",
+      "asset_key": "ex-activation",
+      "expected_size": [
+        220,
+        28
+      ],
+      "phase": "ex_activation",
+      "suggested_roi": [
+        170,
+        241,
+        390,
+        269
+      ]
+    },
+    {
+      "group": "portraits",
+      "tag": "基础卡面",
+      "image": "portraits/base-card-001.png",
+      "asset_key": "base-card",
+      "expected_size": [
+        80,
+        61
+      ],
+      "offline_identity": true,
+      "suggested_roi": [
+        1180,
+        812,
+        1260,
+        873
+      ]
+    },
+    {
+      "group": "cards",
+      "tag": "伊吹基础卡",
+      "image": "cards/base-card-001.png",
+      "asset_key": "base-card",
+      "expected_size": [
+        125,
+        170
+      ],
+      "reference_only": true,
+      "optional": true,
+      "suggested_roi": [
+        1165,
+        765,
+        1290,
+        935
+      ]
+    },
+    {
+      "group": "portraits",
+      "tag": "虎丸搭乘双人卡面",
+      "image": "portraits/linked-card-001.png",
+      "asset_key": "linked-card",
+      "expected_size": [
+        112,
+        105
+      ],
+      "offline_identity": true,
+      "suggested_roi": [
+        1173,
+        785,
+        1285,
+        890
+      ]
+    },
+    {
+      "group": "cards",
+      "tag": "伊吹伊吕波双人卡",
+      "image": "cards/linked-card-001.png",
+      "asset_key": "linked-card",
+      "expected_size": [
+        125,
+        170
+      ],
+      "reference_only": true,
+      "optional": true,
+      "suggested_roi": [
+        1165,
+        765,
+        1290,
+        935
+      ]
+    },
+    {
+      "group": "tooltips",
+      "tag": "搭乘攻击说明",
+      "image": "tooltips/skill-context-001.png",
+      "asset_key": "skill-context",
+      "expected_size": [
+        425,
+        32
+      ],
+      "suggested_roi": [
+        165,
+        45,
+        590,
+        77
+      ]
+    },
+    {
+      "group": "banners",
+      "tag": "跟伊吕波前辈开心地巡逻！",
+      "image": "banners/vehicle-attack-001.png",
+      "asset_key": "vehicle-attack",
+      "expected_size": [
+        315,
+        28
+      ],
+      "suggested_roi": [
+        90,
+        241,
+        405,
+        269
+      ]
+    }
+  ],
+  "special_mechanics": true
+}

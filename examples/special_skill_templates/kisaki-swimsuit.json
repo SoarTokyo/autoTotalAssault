@@ -1,0 +1,150 @@
+{
+  "schema_version": "1.0",
+  "layout_version": "2.0",
+  "student_slug": "kisaki-swimsuit",
+  "id": "kisaki-swimsuit",
+  "content_id": 709615,
+  "actor_aliases": [
+    "妃咲(泳装)"
+  ],
+  "reference_size": [
+    1740,
+    979
+  ],
+  "variants": [
+    {
+      "id": "kisaki-swimsuit-declare",
+      "phase": "ex_activation",
+      "banner_tags": [
+        "宣言：本日停业"
+      ],
+      "cost_kind": "any",
+      "requires_cost_drop": false,
+      "requires_selected_actor": true,
+      "card_rotation": "optional",
+      "required_visual_fields": {},
+      "validation_status": "user_capture_not_independently_verified"
+    },
+    {
+      "id": "kisaki-swimsuit-exercise",
+      "phase": "cost_recovery",
+      "banner_tags": [
+        "施行：万岁体操"
+      ],
+      "cost_kind": "any",
+      "requires_cost_drop": false,
+      "requires_selected_actor": true,
+      "card_rotation": "optional",
+      "required_visual_fields": {},
+      "validation_status": "user_capture_not_independently_verified"
+    }
+  ],
+  "revision": 1,
+  "scope_note": "用户本地截图计划；不包含图片。请用未用于制作模板的新录制验证识别。",
+  "assets": [
+    {
+      "group": "portraits",
+      "tag": "基础卡面",
+      "image": "portraits/base-card-001.png",
+      "asset_key": "base-card",
+      "expected_size": [
+        80,
+        61
+      ],
+      "offline_identity": true,
+      "suggested_roi": [
+        1318,
+        812,
+        1398,
+        873
+      ]
+    },
+    {
+      "group": "cards",
+      "tag": "宣言基础卡",
+      "image": "cards/base-card-001.png",
+      "asset_key": "base-card",
+      "expected_size": [
+        125,
+        170
+      ],
+      "reference_only": true,
+      "optional": true,
+      "suggested_roi": [
+        1303,
+        765,
+        1428,
+        935
+      ]
+    },
+    {
+      "group": "banners",
+      "tag": "宣言：本日停业",
+      "image": "banners/ex-activation-001.png",
+      "asset_key": "ex-activation",
+      "expected_size": [
+        264,
+        28
+      ],
+      "suggested_roi": [
+        176,
+        241,
+        440,
+        269
+      ]
+    },
+    {
+      "group": "cards",
+      "tag": "万岁体操剩余2次",
+      "image": "cards/form-card-001.png",
+      "asset_key": "form-card",
+      "expected_size": [
+        125,
+        170
+      ],
+      "reference_only": true,
+      "optional": true,
+      "suggested_roi": [
+        1303,
+        765,
+        1428,
+        935
+      ]
+    },
+    {
+      "group": "banners",
+      "tag": "施行：万岁体操",
+      "image": "banners/cost-recovery-001.png",
+      "asset_key": "cost-recovery",
+      "expected_size": [
+        262,
+        28
+      ],
+      "suggested_roi": [
+        90,
+        241,
+        352,
+        269
+      ]
+    },
+    {
+      "group": "cards",
+      "tag": "万岁体操剩余1次",
+      "image": "cards/form-card-002.png",
+      "asset_key": "form-card",
+      "expected_size": [
+        125,
+        170
+      ],
+      "reference_only": true,
+      "optional": true,
+      "suggested_roi": [
+        1442,
+        765,
+        1567,
+        935
+      ]
+    }
+  ],
+  "special_mechanics": true
+}

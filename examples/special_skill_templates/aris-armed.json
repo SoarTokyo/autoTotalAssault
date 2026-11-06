@@ -1,0 +1,84 @@
+{
+  "schema_version": "1.0",
+  "layout_version": "2.0",
+  "student_slug": "aris-armed",
+  "id": "aris-armed",
+  "content_id": 690586,
+  "actor_aliases": [
+    "爱丽丝(临战)",
+    "爱丽丝（武装）"
+  ],
+  "reference_size": [
+    1740,
+    979
+  ],
+  "variants": [
+    {
+      "id": "aris-armed-light-sword",
+      "phase": "ex_activation",
+      "banner_tags": [
+        "光之剑"
+      ],
+      "cost_kind": "any",
+      "requires_cost_drop": false,
+      "requires_selected_actor": true,
+      "card_rotation": "optional",
+      "cost_behavior": "may_refund_or_retain_card",
+      "required_visual_fields": {},
+      "validation_status": "user_capture_not_independently_verified"
+    },
+    {
+      "id": "aris-armed-supernova",
+      "phase": "enhanced_cast",
+      "banner_tags": [
+        "觉醒：Supernova"
+      ],
+      "cost_kind": "any",
+      "requires_cost_drop": false,
+      "requires_selected_actor": true,
+      "card_rotation": "optional",
+      "cost_behavior": "may_refund_or_retain_card",
+      "required_visual_fields": {},
+      "validation_status": "user_capture_not_independently_verified"
+    }
+  ],
+  "revision": 1,
+  "scope_note": "用户本地截图计划；不包含图片。请用未用于制作模板的新录制验证识别。",
+  "assets": [
+    {
+      "group": "banners",
+      "tag": "光之剑",
+      "image": "banners/ex-activation-001.png",
+      "asset_key": "ex-activation",
+      "expected_size": [
+        80,
+        29
+      ],
+      "phase": "ex_activation",
+      "suggested_roi": [
+        200,
+        241,
+        280,
+        270
+      ]
+    },
+    {
+      "group": "banners",
+      "tag": "觉醒：Supernova",
+      "image": "banners/enhanced-cast-001.png",
+      "asset_key": "enhanced-cast",
+      "expected_size": [
+        236,
+        29
+      ],
+      "phase": "enhanced_cast",
+      "suggested_roi": [
+        185,
+        241,
+        421,
+        270
+      ]
+    }
+  ],
+  "special_mechanics": true
+}

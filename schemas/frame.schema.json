@@ -1,0 +1,125 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "enum": [
+        "1.0",
+        "1.1"
+      ]
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^f[0-9]+$"
+    },
+    "t_ns": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "capture_end_ns": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "window": {
+      "type": "object",
+      "properties": {
+        "hwnd": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "pid": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "left": {
+          "type": "integer"
+        },
+        "top": {
+          "type": "integer"
+        },
+        "width": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "height": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "focused": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "hwnd",
+        "pid",
+        "left",
+        "top",
+        "width",
+        "height",
+        "focused"
+      ],
+      "additionalProperties": false
+    },
+    "path": {
+      "type": "string"
+    },
+    "video_frame_index": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "video_time_ns": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "content_width": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "content_height": {
+      "type": "integer",
+      "minimum": 1
+    }
+  },
+  "required": [
+    "schema_version",
+    "id",
+    "t_ns",
+    "capture_end_ns",
+    "window",
+    "path"
+  ],
+  "additionalProperties": false,
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "schema_version": {
+            "const": "1.1"
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "video_frame_index",
+          "video_time_ns",
+          "content_width",
+          "content_height"
+        ],
+        "properties": {
+          "path": {
+            "type": "string",
+            "pattern": "^video/segment-[0-9]+\\.mp4$"
+          }
+        }
+      },
+      "else": {
+        "properties": {
+          "path": {
+            "type": "string",
+            "pattern": "^frames/[0-9]{8,}\\.(png|jpg)$"
+          }
+        }
+      }
+    }
+  ]
+}

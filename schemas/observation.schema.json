@@ -1,0 +1,88 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "t_ns": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "completed_ns": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "frame_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "field": {
+      "enum": [
+        "remaining_ms",
+        "ex_cost",
+        "skill_cards",
+        "skill_costs",
+        "boss_hp",
+        "boss_phase",
+        "speed",
+        "auto",
+        "menu_open",
+        "selected_slot"
+      ]
+    },
+    "value": {},
+    "valid": {
+      "type": "boolean"
+    },
+    "confidence": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0,
+      "maximum": 1
+    },
+    "algorithm": {
+      "type": "string",
+      "minLength": 1
+    },
+    "raw_text": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "processing_mode": {
+      "enum": [
+        "live",
+        "offline"
+      ]
+    },
+    "processing_duration_ns": {
+      "type": "integer",
+      "minimum": 0
+    }
+  },
+  "required": [
+    "schema_version",
+    "id",
+    "t_ns",
+    "completed_ns",
+    "frame_id",
+    "field",
+    "value",
+    "valid",
+    "confidence",
+    "algorithm",
+    "raw_text"
+  ],
+  "additionalProperties": false
+}

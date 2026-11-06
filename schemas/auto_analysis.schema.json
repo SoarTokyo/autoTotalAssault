@@ -1,0 +1,273 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "selected_team": {
+      "type": "object",
+      "required": [
+        "schema_version",
+        "students"
+      ],
+      "properties": {
+        "schema_version": {
+          "const": "1.0"
+        },
+        "students": {
+          "type": "array",
+          "minItems": 6,
+          "maxItems": 6,
+          "items": {
+            "type": "object",
+            "required": [
+              "content_id"
+            ],
+            "properties": {
+              "content_id": {
+                "type": "integer",
+                "minimum": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "schema_version": {
+      "const": "1.0"
+    },
+    "algorithm": {
+      "const": "local-hud-rules-v2"
+    },
+    "recording_session_id": {
+      "type": "string"
+    },
+    "profile": {
+      "type": "string"
+    },
+    "profile_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "scope_note": {
+      "type": "string"
+    },
+    "counts": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "integer",
+        "minimum": 0
+      }
+    },
+    "candidates": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "actions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "index": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "kind": {
+            "enum": [
+              "skill_cast",
+              "transition",
+              "auto_toggle"
+            ]
+          },
+          "status": {
+            "enum": [
+              "supported",
+              "needs_review"
+            ]
+          },
+          "reason_text": {
+            "type": "string"
+          },
+          "review_status": {
+            "const": "needs_review"
+          },
+          "executable": {
+            "const": false
+          },
+          "skill": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "actor": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "classification": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "skill_variant_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "card_identity": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "copy_state": {
+            "type": "object",
+            "required": [
+              "value",
+              "valid",
+              "score"
+            ],
+            "properties": {
+              "value": {
+                "type": [
+                  "boolean",
+                  "null"
+                ]
+              },
+              "valid": {
+                "type": "boolean"
+              },
+              "score": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 1
+              }
+            }
+          },
+          "shot": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 1
+          },
+          "slot": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 3
+          },
+          "input_down_ns": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "input_up_ns": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "recording_relative_down_seconds": {
+            "type": "number",
+            "minimum": 0
+          },
+          "recording_relative_up_seconds": {
+            "type": "number",
+            "minimum": 0
+          },
+          "game_timer_near_release": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "pattern": "^[0-9]{2}:[0-5][0-9]\\.[0-9]{3}$"
+          },
+          "displayed_cost_near_target_down": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "displayed_cost_after_sample": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "displayed_card_cost": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "target_normalized": {
+            "type": "array",
+            "items": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            },
+            "minItems": 2,
+            "maxItems": 2
+          },
+          "target_identity": {
+            "type": "null"
+          },
+          "method": {
+            "type": "string"
+          },
+          "source_event_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "evidence": {
+            "type": "object"
+          },
+          "pause_observed_soon_after": {
+            "type": "boolean"
+          },
+          "auto_state": {
+            "type": [
+              "boolean",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "index",
+          "kind",
+          "status",
+          "review_status",
+          "executable",
+          "skill",
+          "classification",
+          "slot",
+          "input_down_ns",
+          "input_up_ns",
+          "game_timer_near_release",
+          "displayed_cost_near_target_down",
+          "displayed_cost_after_sample",
+          "displayed_card_cost",
+          "target_normalized",
+          "target_identity",
+          "source_event_ids",
+          "evidence"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "schema_version",
+    "algorithm",
+    "recording_session_id",
+    "profile",
+    "profile_sha256",
+    "scope_note",
+    "counts",
+    "candidates",
+    "actions"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,17 @@
+{
+  "schema_version":"1.0",
+  "files":[
+    "README.md","用户使用说明.md","用户使用说明.docx","docs/release_readme.md",
+    "pyproject.toml","LICENSE","COPYRIGHT.md","THIRD_PARTY_NOTICES.md","requirements-win64.lock.txt","start_gui.cmd",
+    "docs/licensing_review.md","docs/dependency_inventory.json","docs/发布前检查.md",
+    "scripts/tor格里高利礼奈春锅轴4001w.json",
+    "tools/launch_gui.py","tools/setup.ps1","tools/start_gui.ps1","tools/check_environment.py","tools/download_gamekee_students.py",
+    "tools/build_skill_assets.py","tools/build_hud_glyphs.py","tools/manage_skill_library.py",
+    "docs/特殊技能素材制作指南.md","docs/转场与AUTO录制分析.md","examples/special_skill_student_slugs.json",
+    "examples/recorder.json","examples/steam-default.profile.json",
+    "examples/roster_menu_layout.json","examples/templates.json",
+    "examples/student_names.json","examples/student_names_supplement.json","examples/student_name_aliases.json"
+  ],
+  "patterns":["src/ba_recorder/*.py","schemas/*.json","examples/special_skill_templates/*.json"],
+  "renamed_files":{}
+}

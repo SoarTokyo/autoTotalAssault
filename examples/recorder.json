@@ -1,0 +1,26 @@
+{
+  "queue_size": 20000,
+  "video_enabled": false,
+  "all_frames": true,
+  "sample_hz": 5,
+  "pre_seconds": 0,
+  "post_seconds": 0,
+  "screenshot_format": "png",
+  "capture_backend": "mss",
+  "video_fps": 30,
+  "video_codec": "auto",
+  "video_crf": 18,
+  "video_queue_size": 8,
+  "start_key": "f8",
+  "stop_key": "f9",
+  "abort_key": "f7",
+  "allowed_keys": [],
+  "keymap": {
+    "select_slot_0": "vk:49",
+    "select_slot_1": "vk:50",
+    "select_slot_2": "vk:51",
+    "toggle_auto": "vk:65",
+    "cycle_speed": "vk:83",
+    "context_escape": "esc"
+  }
+}

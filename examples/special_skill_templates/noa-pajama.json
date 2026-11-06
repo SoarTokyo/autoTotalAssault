@@ -1,0 +1,257 @@
+{
+  "schema_version": "1.0",
+  "layout_version": "2.0",
+  "student_slug": "noa-pajama",
+  "id": "noa-pajama",
+  "content_id": 643621,
+  "actor_aliases": [
+    "诺亚(睡衣)",
+    "乃愛(睡衣)",
+    "乃爱(睡衣)"
+  ],
+  "reference_size": [
+    1740,
+    979
+  ],
+  "variants": [
+    {
+      "id": "noa-pajama-base-cast",
+      "phase": "base_cast",
+      "banner_tags": [
+        "熄灯后请保持安静"
+      ],
+      "cost_kind": "any",
+      "requires_cost_drop": false,
+      "requires_selected_actor": true,
+      "card_rotation": "optional",
+      "required_visual_fields": {},
+      "validation_status": "user_capture_not_independently_verified"
+    },
+    {
+      "id": "noa-pajama-alternate-cast",
+      "phase": "alternate_cast",
+      "banner_tags": [
+        "嘘，熄灯了"
+      ],
+      "cost_kind": "any",
+      "requires_cost_drop": false,
+      "requires_selected_actor": true,
+      "card_rotation": "optional",
+      "required_visual_fields": {},
+      "validation_status": "user_capture_not_independently_verified"
+    }
+  ],
+  "revision": 1,
+  "scope_note": "用户本地截图计划；不包含图片。请用未用于制作模板的新录制验证识别。",
+  "assets": [
+    {
+      "group": "banners",
+      "tag": "熄灯后请保持安静",
+      "image": "banners/base-cast-001.png",
+      "asset_key": "base-cast",
+      "expected_size": [
+        206,
+        29
+      ],
+      "phase": "unknown",
+      "suggested_roi": [
+        190,
+        241,
+        396,
+        270
+      ]
+    },
+    {
+      "group": "banners",
+      "tag": "嘘，熄灯了",
+      "image": "banners/alternate-cast-001.png",
+      "asset_key": "alternate-cast",
+      "expected_size": [
+        134,
+        29
+      ],
+      "phase": "unknown",
+      "suggested_roi": [
+        242,
+        241,
+        376,
+        270
+      ]
+    },
+    {
+      "group": "portraits",
+      "tag": "睁眼卡面",
+      "image": "portraits/form-card-001.png",
+      "asset_key": "form-card",
+      "expected_size": [
+        80,
+        61
+      ],
+      "offline_identity": true,
+      "suggested_roi": [
+        1457,
+        812,
+        1537,
+        873
+      ]
+    },
+    {
+      "group": "portraits",
+      "tag": "闭眼卡面",
+      "image": "portraits/form-card-002.png",
+      "asset_key": "form-card",
+      "expected_size": [
+        80,
+        61
+      ],
+      "offline_identity": true,
+      "suggested_roi": [
+        1457,
+        812,
+        1537,
+        873
+      ]
+    },
+    {
+      "group": "portraits",
+      "tag": "闭眼选中卡面",
+      "image": "portraits/form-card-003.png",
+      "asset_key": "form-card",
+      "expected_size": [
+        80,
+        61
+      ],
+      "offline_identity": true,
+      "suggested_roi": [
+        1457,
+        780,
+        1537,
+        841
+      ]
+    },
+    {
+      "group": "cards",
+      "tag": "五费睁眼卡",
+      "image": "cards/form-card-001.png",
+      "asset_key": "form-card",
+      "expected_size": [
+        125,
+        170
+      ],
+      "reference_only": true,
+      "optional": true,
+      "suggested_roi": [
+        1442,
+        765,
+        1567,
+        935
+      ]
+    },
+    {
+      "group": "cards",
+      "tag": "三费闭眼卡",
+      "image": "cards/form-card-002.png",
+      "asset_key": "form-card",
+      "expected_size": [
+        125,
+        170
+      ],
+      "reference_only": true,
+      "optional": true,
+      "suggested_roi": [
+        1442,
+        765,
+        1567,
+        935
+      ]
+    },
+    {
+      "group": "cards",
+      "tag": "五费选中卡",
+      "image": "cards/form-card-003.png",
+      "asset_key": "form-card",
+      "expected_size": [
+        140,
+        185
+      ],
+      "reference_only": true,
+      "optional": true,
+      "suggested_roi": [
+        1435,
+        740,
+        1575,
+        925
+      ]
+    },
+    {
+      "group": "cards",
+      "tag": "三费选中卡",
+      "image": "cards/form-card-004.png",
+      "asset_key": "form-card",
+      "expected_size": [
+        140,
+        185
+      ],
+      "reference_only": true,
+      "optional": true,
+      "suggested_roi": [
+        1435,
+        740,
+        1575,
+        925
+      ]
+    },
+    {
+      "group": "tooltips",
+      "tag": "五费卡技能说明",
+      "image": "tooltips/skill-context-001.png",
+      "asset_key": "skill-context",
+      "expected_size": [
+        720,
+        145
+      ],
+      "reference_only": true,
+      "suggested_roi": [
+        160,
+        40,
+        880,
+        185
+      ]
+    },
+    {
+      "group": "tooltips",
+      "tag": "三费卡技能说明",
+      "image": "tooltips/skill-context-002.png",
+      "asset_key": "skill-context",
+      "expected_size": [
+        720,
+        145
+      ],
+      "reference_only": true,
+      "suggested_roi": [
+        160,
+        40,
+        880,
+        185
+      ]
+    },
+    {
+      "group": "tooltips",
+      "tag": "三费卡技能说明补充",
+      "image": "tooltips/skill-context-003.png",
+      "asset_key": "skill-context",
+      "expected_size": [
+        720,
+        145
+      ],
+      "reference_only": true,
+      "suggested_roi": [
+        160,
+        40,
+        880,
+        185
+      ]
+    }
+  ],
+  "special_mechanics": true
+}

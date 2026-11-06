@@ -1,0 +1,278 @@
+{
+  "schema_version": "1.0",
+  "layout_version": "2.0",
+  "student_slug": "mika-swimsuit",
+  "id": "mika-swimsuit",
+  "content_id": 671319,
+  "actor_aliases": [
+    "未花(泳装)"
+  ],
+  "reference_size": [
+    1740,
+    979
+  ],
+  "variants": [
+    {
+      "id": "mika-swimsuit-normal-attack",
+      "phase": "ex_activation",
+      "banner_tags": [
+        "静谧的决心"
+      ],
+      "cost_kind": "any",
+      "requires_cost_drop": false,
+      "requires_selected_actor": true,
+      "card_rotation": "optional",
+      "required_visual_fields": {},
+      "validation_status": "user_capture_not_independently_verified"
+    },
+    {
+      "id": "mika-swimsuit-rapid-attack",
+      "phase": "rapid_fire",
+      "banner_tags": [
+        "夜空的流星"
+      ],
+      "cost_kind": "any",
+      "requires_cost_drop": false,
+      "requires_selected_actor": true,
+      "card_rotation": "optional",
+      "required_visual_fields": {},
+      "validation_status": "user_capture_not_independently_verified",
+      "required_context_tag": "攻击说明"
+    },
+    {
+      "id": "mika-swimsuit-rapid-enter",
+      "phase": "mode_enter",
+      "banner_tags": [
+        "夜空的流星"
+      ],
+      "cost_kind": "any",
+      "requires_cost_drop": false,
+      "requires_selected_actor": true,
+      "card_rotation": "optional",
+      "required_visual_fields": {},
+      "validation_status": "user_capture_not_independently_verified",
+      "required_context_tag": "进入连射说明"
+    },
+    {
+      "id": "mika-swimsuit-rapid-exit",
+      "phase": "mode_exit",
+      "banner_tags": [
+        "稍微放松一下"
+      ],
+      "cost_kind": "any",
+      "requires_cost_drop": false,
+      "requires_selected_actor": true,
+      "card_rotation": "optional",
+      "required_visual_fields": {},
+      "validation_status": "user_capture_not_independently_verified",
+      "required_context_tag": "解除连射说明"
+    }
+  ],
+  "revision": 1,
+  "scope_note": "用户本地截图计划；不包含图片。请用未用于制作模板的新录制验证识别。",
+  "assets": [
+    {
+      "group": "portraits",
+      "tag": "基础卡面",
+      "image": "portraits/base-card-001.png",
+      "asset_key": "base-card",
+      "expected_size": [
+        80,
+        61
+      ],
+      "offline_identity": true,
+      "suggested_roi": [
+        1318,
+        812,
+        1398,
+        873
+      ]
+    },
+    {
+      "group": "cards",
+      "tag": "基础卡与切换副按钮",
+      "image": "cards/base-card-001.png",
+      "asset_key": "base-card",
+      "expected_size": [
+        125,
+        170
+      ],
+      "reference_only": true,
+      "optional": true,
+      "suggested_roi": [
+        1303,
+        765,
+        1428,
+        935
+      ]
+    },
+    {
+      "group": "banners",
+      "tag": "静谧的决心",
+      "image": "banners/ex-activation-001.png",
+      "asset_key": "ex-activation",
+      "expected_size": [
+        242,
+        28
+      ],
+      "suggested_roi": [
+        90,
+        241,
+        332,
+        269
+      ]
+    },
+    {
+      "group": "portraits",
+      "tag": "连射表情卡面",
+      "image": "portraits/form-card-001.png",
+      "asset_key": "form-card",
+      "expected_size": [
+        80,
+        61
+      ],
+      "offline_identity": true,
+      "suggested_roi": [
+        1318,
+        812,
+        1398,
+        873
+      ]
+    },
+    {
+      "group": "cards",
+      "tag": "连射攻击与零费解除副按钮",
+      "image": "cards/form-card-001.png",
+      "asset_key": "form-card",
+      "expected_size": [
+        125,
+        170
+      ],
+      "reference_only": true,
+      "optional": true,
+      "suggested_roi": [
+        1303,
+        765,
+        1428,
+        935
+      ]
+    },
+    {
+      "group": "tooltips",
+      "tag": "攻击说明",
+      "image": "tooltips/skill-context-001.png",
+      "asset_key": "skill-context",
+      "expected_size": [
+        785,
+        60
+      ],
+      "suggested_roi": [
+        165,
+        78,
+        950,
+        138
+      ]
+    },
+    {
+      "group": "banners",
+      "tag": "夜空的流星",
+      "image": "banners/shared-skill-001.png",
+      "asset_key": "shared-skill",
+      "expected_size": [
+        246,
+        28
+      ],
+      "suggested_roi": [
+        90,
+        241,
+        336,
+        269
+      ]
+    },
+    {
+      "group": "cards",
+      "tag": "解除连射操作",
+      "image": "cards/form-card-002.png",
+      "asset_key": "form-card",
+      "expected_size": [
+        125,
+        170
+      ],
+      "reference_only": true,
+      "optional": true,
+      "suggested_roi": [
+        1303,
+        765,
+        1428,
+        935
+      ]
+    },
+    {
+      "group": "tooltips",
+      "tag": "解除连射说明",
+      "image": "tooltips/skill-context-002.png",
+      "asset_key": "skill-context",
+      "expected_size": [
+        230,
+        32
+      ],
+      "suggested_roi": [
+        165,
+        45,
+        395,
+        77
+      ]
+    },
+    {
+      "group": "banners",
+      "tag": "稍微放松一下",
+      "image": "banners/mode-exit-001.png",
+      "asset_key": "mode-exit",
+      "expected_size": [
+        146,
+        28
+      ],
+      "suggested_roi": [
+        194,
+        241,
+        340,
+        269
+      ]
+    },
+    {
+      "group": "cards",
+      "tag": "进入连射操作",
+      "image": "cards/form-card-003.png",
+      "asset_key": "form-card",
+      "expected_size": [
+        125,
+        170
+      ],
+      "reference_only": true,
+      "optional": true,
+      "suggested_roi": [
+        1442,
+        765,
+        1567,
+        935
+      ]
+    },
+    {
+      "group": "tooltips",
+      "tag": "进入连射说明",
+      "image": "tooltips/skill-context-003.png",
+      "asset_key": "skill-context",
+      "expected_size": [
+        560,
+        32
+      ],
+      "suggested_roi": [
+        165,
+        45,
+        725,
+        77
+      ]
+    }
+  ],
+  "special_mechanics": true
+}

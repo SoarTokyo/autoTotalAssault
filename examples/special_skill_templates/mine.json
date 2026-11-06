@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.0",
+  "layout_version": "2.0",
+  "student_slug": "mine",
+  "id": "mine",
+  "content_id": 580732,
+  "actor_aliases": [
+    "美祢"
+  ],
+  "reference_size": [
+    1740,
+    979
+  ],
+  "variants": [
+    {
+      "id": "美祢",
+      "actor": "美祢",
+      "phase": "ex_activation",
+      "card_identity": "美祢",
+      "cost_kind": "positive",
+      "requires_cost_drop": true,
+      "required_visual_fields": {},
+      "banner_tags": [
+        "EX启动"
+      ],
+      "card_identity_suffix": "",
+      "card_rotation": "optional",
+      "validation_status": "user_capture_not_independently_verified"
+    }
+  ],
+  "revision": 1,
+  "scope_note": "用户本地截图计划；不包含图片。请用未用于制作模板的新录制验证识别。",
+  "assets": [
+    {
+      "group": "banners",
+      "tag": "EX启动",
+      "image": "banners/ex-activation-001.png",
+      "asset_key": "ex-activation",
+      "expected_size": [
+        122,
+        28
+      ],
+      "card_identity_suffix": "",
+      "phase": "ex_activation",
+      "shot": null,
+      "suggested_roi": [
+        189,
+        241,
+        311,
+        269
+      ]
+    },
+    {
+      "group": "portraits",
+      "tag": "EX启动",
+      "image": "portraits/base-card-001.png",
+      "asset_key": "base-card",
+      "expected_size": [
+        80,
+        61
+      ],
+      "card_identity_suffix": "",
+      "suggested_roi": [
+        1318,
+        817,
+        1398,
+        878
+      ]
+    }
+  ],
+  "special_mechanics": false
+}

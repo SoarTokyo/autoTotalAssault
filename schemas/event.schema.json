@@ -1,0 +1,223 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^e[0-9]+$"
+    },
+    "t_ns": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "kind": {
+      "enum": [
+        "key_down",
+        "key_up",
+        "mouse_move",
+        "mouse_down",
+        "mouse_up",
+        "scroll",
+        "recording_start",
+        "recording_stop",
+        "recording_pause",
+        "recording_resume",
+        "window_state",
+        "capture_gap",
+        "session_end"
+      ]
+    },
+    "window": {
+      "type": "object",
+      "properties": {
+        "hwnd": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "pid": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "left": {
+          "type": "integer"
+        },
+        "top": {
+          "type": "integer"
+        },
+        "width": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "height": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "focused": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "hwnd",
+        "pid",
+        "left",
+        "top",
+        "width",
+        "height",
+        "focused"
+      ],
+      "additionalProperties": false
+    },
+    "data": {
+      "type": "object"
+    }
+  },
+  "required": [
+    "schema_version",
+    "id",
+    "t_ns",
+    "kind",
+    "window",
+    "data"
+  ],
+  "additionalProperties": false,
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "kind": {
+            "enum": [
+              "key_down",
+              "key_up"
+            ]
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "data": {
+            "type": "object",
+            "properties": {
+              "key": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "key"
+            ],
+            "additionalProperties": false
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "kind": {
+            "enum": [
+              "mouse_move",
+              "mouse_down",
+              "mouse_up",
+              "scroll"
+            ]
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "data": {
+            "type": "object",
+            "properties": {
+              "desktop": {
+                "type": "array",
+                "items": {
+                  "type": "number"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "client": {
+                "type": "array",
+                "items": {
+                  "type": "number"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "normalized": {
+                "type": "array",
+                "items": {
+                  "type": "number",
+                  "minimum": 0,
+                  "exclusiveMaximum": 1
+                },
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "button": {
+                "type": "string",
+                "minLength": 1
+              },
+              "delta": {
+                "type": "array",
+                "items": {
+                  "type": "number"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              }
+            },
+            "required": [
+              "desktop",
+              "client",
+              "normalized"
+            ],
+            "additionalProperties": false
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "kind": {
+            "enum": [
+              "mouse_down",
+              "mouse_up"
+            ]
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "data": {
+            "required": [
+              "button"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "kind": {
+            "const": "scroll"
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "data": {
+            "required": [
+              "delta"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

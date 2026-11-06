@@ -1,0 +1,255 @@
+{
+  "schema_version": "1.0",
+  "layout_version": "2.0",
+  "student_slug": "toki",
+  "id": "toki",
+  "content_id": 584417,
+  "actor_aliases": [
+    "时"
+  ],
+  "reference_size": [
+    1740,
+    979
+  ],
+  "variants": [
+    {
+      "id": "toki-abi-eshuh-enter",
+      "phase": "mode_enter",
+      "banner_tags": [
+        "System: Abi-Eshuh"
+      ],
+      "cost_kind": "any",
+      "requires_cost_drop": false,
+      "requires_selected_actor": true,
+      "card_rotation": "optional",
+      "required_visual_fields": {},
+      "required_context_tag": "变身说明",
+      "validation_status": "user_capture_not_independently_verified"
+    },
+    {
+      "id": "toki-abi-eshuh-attack",
+      "phase": "enhanced_cast",
+      "banner_tags": [
+        "System: Abi-Eshuh"
+      ],
+      "cost_kind": "any",
+      "requires_cost_drop": false,
+      "requires_selected_actor": true,
+      "card_rotation": "optional",
+      "required_visual_fields": {},
+      "required_context_tag": "装甲攻击说明",
+      "validation_status": "user_capture_not_independently_verified"
+    }
+  ],
+  "revision": 1,
+  "scope_note": "用户本地截图计划；不包含图片。请用未用于制作模板的新录制验证识别。",
+  "assets": [
+    {
+      "group": "portraits",
+      "tag": "普通女仆卡面",
+      "image": "portraits/base-card-001.png",
+      "asset_key": "base-card",
+      "expected_size": [
+        80,
+        61
+      ],
+      "offline_identity": true,
+      "suggested_roi": [
+        1457,
+        812,
+        1537,
+        873
+      ]
+    },
+    {
+      "group": "cards",
+      "tag": "普通变身卡",
+      "image": "cards/base-card-001.png",
+      "asset_key": "base-card",
+      "expected_size": [
+        125,
+        170
+      ],
+      "reference_only": true,
+      "optional": true,
+      "suggested_roi": [
+        1442,
+        765,
+        1567,
+        935
+      ]
+    },
+    {
+      "group": "tooltips",
+      "tag": "变身说明",
+      "image": "tooltips/skill-context-001.png",
+      "asset_key": "skill-context",
+      "expected_size": [
+        330,
+        32
+      ],
+      "suggested_roi": [
+        165,
+        45,
+        495,
+        77
+      ]
+    },
+    {
+      "group": "banners",
+      "tag": "System: Abi-Eshuh",
+      "image": "banners/unknown-001.png",
+      "asset_key": "unknown",
+      "expected_size": [
+        270,
+        28
+      ],
+      "phase": "unknown",
+      "suggested_roi": [
+        155,
+        241,
+        425,
+        269
+      ]
+    },
+    {
+      "group": "portraits",
+      "tag": "装甲面罩卡面",
+      "image": "portraits/armor-card-001.png",
+      "asset_key": "armor-card",
+      "expected_size": [
+        80,
+        61
+      ],
+      "offline_identity": true,
+      "suggested_roi": [
+        1180,
+        812,
+        1260,
+        873
+      ]
+    },
+    {
+      "group": "cards",
+      "tag": "原装甲攻击卡",
+      "image": "cards/armor-card-001.png",
+      "asset_key": "armor-card",
+      "expected_size": [
+        125,
+        170
+      ],
+      "reference_only": true,
+      "optional": true,
+      "suggested_roi": [
+        1165,
+        765,
+        1290,
+        935
+      ]
+    },
+    {
+      "group": "tooltips",
+      "tag": "装甲攻击说明",
+      "image": "tooltips/skill-context-002.png",
+      "asset_key": "skill-context",
+      "expected_size": [
+        485,
+        32
+      ],
+      "suggested_roi": [
+        165,
+        45,
+        650,
+        77
+      ]
+    },
+    {
+      "group": "portraits",
+      "tag": "装甲面罩卡面补充",
+      "image": "portraits/armor-card-002.png",
+      "asset_key": "armor-card",
+      "expected_size": [
+        80,
+        61
+      ],
+      "offline_identity": true,
+      "suggested_roi": [
+        1318,
+        812,
+        1398,
+        873
+      ]
+    },
+    {
+      "group": "copy_cards",
+      "tag": "莉音复制的装甲攻击卡",
+      "image": "copy_cards/copied-skill-001.png",
+      "asset_key": "copied-skill",
+      "expected_size": [
+        125,
+        170
+      ],
+      "reference_only": true,
+      "optional": true,
+      "suggested_roi": [
+        1165,
+        765,
+        1290,
+        935
+      ]
+    },
+    {
+      "group": "portraits",
+      "tag": "普通女仆卡面补充",
+      "image": "portraits/base-card-002.png",
+      "asset_key": "base-card",
+      "expected_size": [
+        80,
+        61
+      ],
+      "offline_identity": true,
+      "suggested_roi": [
+        1457,
+        812,
+        1537,
+        873
+      ]
+    },
+    {
+      "group": "copy_cards",
+      "tag": "第二次复制的装甲攻击卡（未使用）",
+      "image": "copy_cards/copied-skill-002.png",
+      "asset_key": "copied-skill",
+      "expected_size": [
+        125,
+        170
+      ],
+      "reference_only": true,
+      "optional": true,
+      "suggested_roi": [
+        1442,
+        765,
+        1567,
+        935
+      ]
+    },
+    {
+      "group": "portraits",
+      "tag": "装甲面罩卡面（明暗遮罩）",
+      "image": "portraits/armor-card-003.png",
+      "asset_key": "armor-card",
+      "expected_size": [
+        80,
+        61
+      ],
+      "offline_identity": true,
+      "suggested_roi": [
+        1180,
+        812,
+        1260,
+        873
+      ]
+    }
+  ],
+  "special_mechanics": true
+}

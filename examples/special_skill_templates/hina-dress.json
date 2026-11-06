@@ -1,0 +1,191 @@
+{
+  "schema_version": "1.0",
+  "layout_version": "2.0",
+  "student_slug": "hina-dress",
+  "id": "hina-dress",
+  "content_id": 611753,
+  "actor_aliases": [
+    "日奈（礼服）"
+  ],
+  "reference_size": [
+    1740,
+    979
+  ],
+  "variants": [
+    {
+      "id": "日奈（礼服）·EX启动",
+      "actor": "日奈（礼服）",
+      "phase": "ex_activation",
+      "card_identity": "日奈（礼服）",
+      "cost_kind": "positive",
+      "requires_cost_drop": true,
+      "required_visual_fields": {},
+      "banner_tags": [
+        "EX启动"
+      ],
+      "card_identity_suffix": "",
+      "card_rotation": "optional",
+      "validation_status": "user_capture_not_independently_verified"
+    },
+    {
+      "id": "日奈（礼服）·第1射",
+      "actor": "日奈（礼服）",
+      "phase": "followup_shot",
+      "card_identity": "日奈（礼服）·射击卡",
+      "cost_kind": "zero",
+      "requires_cost_drop": false,
+      "required_visual_fields": {},
+      "banner_tags": [
+        "第1射"
+      ],
+      "card_identity_suffix": "·射击卡",
+      "card_rotation": "optional",
+      "validation_status": "user_capture_not_independently_verified"
+    },
+    {
+      "id": "日奈（礼服）·第2射",
+      "actor": "日奈（礼服）",
+      "phase": "followup_shot",
+      "card_identity": "日奈（礼服）·射击卡",
+      "cost_kind": "zero",
+      "requires_cost_drop": false,
+      "required_visual_fields": {},
+      "banner_tags": [
+        "第2射"
+      ],
+      "card_identity_suffix": "·射击卡",
+      "card_rotation": "optional",
+      "validation_status": "user_capture_not_independently_verified"
+    },
+    {
+      "id": "日奈（礼服）·第3射",
+      "actor": "日奈（礼服）",
+      "phase": "followup_shot",
+      "card_identity": "日奈（礼服）·射击卡",
+      "cost_kind": "zero",
+      "requires_cost_drop": false,
+      "required_visual_fields": {},
+      "banner_tags": [
+        "第3射"
+      ],
+      "card_identity_suffix": "·射击卡",
+      "card_rotation": "optional",
+      "validation_status": "user_capture_not_independently_verified"
+    }
+  ],
+  "revision": 1,
+  "scope_note": "用户本地截图计划；不包含图片。请用未用于制作模板的新录制验证识别。",
+  "assets": [
+    {
+      "group": "banners",
+      "tag": "EX启动",
+      "image": "banners/ex-activation-001.png",
+      "asset_key": "ex-activation",
+      "expected_size": [
+        218,
+        28
+      ],
+      "card_identity_suffix": "",
+      "phase": "ex_activation",
+      "shot": null,
+      "suggested_roi": [
+        92,
+        241,
+        310,
+        269
+      ]
+    },
+    {
+      "group": "banners",
+      "tag": "第1射",
+      "image": "banners/followup-shot-001.png",
+      "asset_key": "followup-shot",
+      "expected_size": [
+        170,
+        28
+      ],
+      "card_identity_suffix": "·射击卡",
+      "phase": "followup_shot",
+      "shot": 1,
+      "suggested_roi": [
+        173,
+        241,
+        343,
+        269
+      ]
+    },
+    {
+      "group": "banners",
+      "tag": "第2射",
+      "image": "banners/followup-shot-002.png",
+      "asset_key": "followup-shot",
+      "expected_size": [
+        166,
+        28
+      ],
+      "card_identity_suffix": "·射击卡",
+      "phase": "followup_shot",
+      "shot": 2,
+      "suggested_roi": [
+        112,
+        241,
+        278,
+        269
+      ]
+    },
+    {
+      "group": "banners",
+      "tag": "第3射",
+      "image": "banners/followup-shot-003.png",
+      "asset_key": "followup-shot",
+      "expected_size": [
+        123,
+        28
+      ],
+      "card_identity_suffix": "·射击卡",
+      "phase": "followup_shot",
+      "shot": 3,
+      "suggested_roi": [
+        149,
+        241,
+        272,
+        269
+      ]
+    },
+    {
+      "group": "portraits",
+      "tag": "EX启动",
+      "image": "portraits/base-card-001.png",
+      "asset_key": "base-card",
+      "expected_size": [
+        80,
+        61
+      ],
+      "card_identity_suffix": "",
+      "suggested_roi": [
+        1318,
+        817,
+        1398,
+        878
+      ]
+    },
+    {
+      "group": "portraits",
+      "tag": "射击卡",
+      "image": "portraits/shooting-card-001.png",
+      "asset_key": "shooting-card",
+      "expected_size": [
+        80,
+        61
+      ],
+      "card_identity_suffix": "·射击卡",
+      "suggested_roi": [
+        1318,
+        817,
+        1398,
+        878
+      ]
+    }
+  ],
+  "special_mechanics": true
+}

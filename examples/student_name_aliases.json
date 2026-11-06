@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "note": "将本地 GameKee 名称关联到英文检索词；含常见不同拼写，不将其作为游戏内官方显示名。",
+  "base_names": {
+    "䌷": ["Tsumugi"], "丽情": ["Reijo"], "八云": ["Yakumo"], "兰舞": ["Rabu", "Love"],
+    "冬": ["Fuyu"], "南": ["Minami"], "好美": ["Yoshimi"], "妮可": ["Niko"], "妮露": ["Neru"],
+    "安娜": ["Anna"], "实梨": ["Minori"], "律": ["Ritsu"], "心": ["Kokoro"], "拉娜": ["Rana"],
+    "昴": ["Subaru"], "木乃香": ["Konoka"], "朱莉": ["Juri"], "柯伊": ["Kei", "Key"],
+    "歌原": ["Utaha"], "海香": ["Umika"], "淳子": ["Junko"], "玛丽娜": ["Marina"],
+    "琴里": ["Kotori"], "琴音": ["Kotama"], "白子*恐怖": ["Shiroko Terror"], "紫": ["Yukari"],
+    "纱绫": ["Saya"], "绘梨香": ["Erika"], "绘里": ["Eri"], "绮良良": ["Kirara"],
+    "美代": ["Miyo"], "美祢": ["Mine"], "胡桃": ["Kurumi", "Walnut"], "艾莉娜": ["Erina"],
+    "芹娜": ["Serina"], "莱伊": ["Rei"], "蕾娜": ["Rena"], "贵音": ["Takane"],
+    "雪玲": ["Sueri", "Shueri"], "音葵": ["Nea"], "鹿江": ["Kanoe"]
+  },
+  "forms": {
+    "野营": ["Camp"], "圣诞": ["Christmas"],
+    "临战·攻击型": ["Battle - Attack"], "临战·防御型": ["Battle - Defense"],
+    "泳装": ["Swimsuit"], "新年": ["New Year"], "正月": ["New Year"], "礼服": ["Dress"],
+    "温泉": ["Hot Spring"], "体操服": ["Track", "Sportswear"], "女仆": ["Maid"], "女仆装": ["Maid"],
+    "兔女郎": ["Bunny"], "制服": ["School", "Uniform"], "单车": ["Cycling"], "骑行": ["Cycling"],
+    "应援团": ["Cheer Squad", "Cheerleader"], "乐队": ["Band"], "偶像": ["Idol"], "私服": ["Casual"],
+    "临战": ["Armed", "Battle"], "武装": ["Armed"], "导游": ["Guide"], "幼女": ["Small", "Young"],
+    "魔法": ["Magical"], "魔法少女": ["Magical"], "赛车": ["Racing"], "潜入": ["Infiltration"],
+    "打工": ["Part Timer"], "旗袍": ["Qipao", "Cheongsam"]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "keymap": {
+    "select_slot_0": "vk:49",
+    "select_slot_1": "vk:50",
+    "select_slot_2": "vk:51",
+    "toggle_auto": "vk:65",
+    "cycle_speed": "vk:83",
+    "context_escape": "esc"
+  },
+  "regions": {},
+  "geometry_confirmed": false,
+  "drag_threshold": 0.015,
+  "selection_timeout_ms": 10000,
+  "evidence_window_ms": 1800,
+  "max_observation_age_ms": 1000,
+  "min_confidence": 0.8
+}

@@ -1,0 +1,2471 @@
+{
+  "schema_version": "1.0",
+  "source": "https://github.com/ba-archive/blue-archive/blob/main/apps/blue-archive-story-viewer/public/config/yaml/students.yaml",
+  "note": "仅提取学生名称对照事实，不包含游戏美术或源项目代码。",
+  "students": [
+    {
+      "id": 10000,
+      "name": {
+        "cn": "阿露",
+        "en": "Aru"
+      },
+      "family": {
+        "cn": "陆八魔",
+        "en": "Rikuhachima"
+      }
+    },
+    {
+      "id": 10001,
+      "name": {
+        "cn": "艾米",
+        "en": "Eimi"
+      },
+      "family": {
+        "cn": "和泉元",
+        "en": "Izumimoto"
+      }
+    },
+    {
+      "id": 10002,
+      "name": {
+        "cn": "晴奈",
+        "en": "Haruna"
+      },
+      "family": {
+        "cn": "黑馆",
+        "en": "Kurodate"
+      }
+    },
+    {
+      "id": 10003,
+      "name": {
+        "cn": "日富美",
+        "en": "Hifumi"
+      },
+      "family": {
+        "cn": "阿慈谷",
+        "en": "Ajitani"
+      }
+    },
+    {
+      "id": 10004,
+      "name": {
+        "cn": "日奈",
+        "en": "Hina"
+      },
+      "family": {
+        "cn": "空崎",
+        "en": "Sorasaki"
+      }
+    },
+    {
+      "id": 10005,
+      "name": {
+        "cn": "星野",
+        "en": "Hoshino"
+      },
+      "family": {
+        "cn": "小鸟游",
+        "en": "Takanashi"
+      }
+    },
+    {
+      "id": 10006,
+      "name": {
+        "cn": "伊织",
+        "en": "Iori"
+      },
+      "family": {
+        "cn": "银镜",
+        "en": "Shiromi"
+      }
+    },
+    {
+      "id": 10007,
+      "name": {
+        "cn": "真纪",
+        "en": "Maki"
+      },
+      "family": {
+        "cn": "小涂",
+        "en": "Konuri"
+      }
+    },
+    {
+      "id": 10008,
+      "name": {
+        "cn": "尼禄",
+        "en": "Neru"
+      },
+      "family": {
+        "cn": "美甘",
+        "en": "Mikamo"
+      }
+    },
+    {
+      "id": 10009,
+      "name": {
+        "cn": "泉",
+        "en": "Izumi"
+      },
+      "family": {
+        "cn": "狮子堂",
+        "en": "Shishidou"
+      }
+    },
+    {
+      "id": 10010,
+      "name": {
+        "cn": "白子",
+        "en": "Shiroko"
+      },
+      "family": {
+        "cn": "砂狼",
+        "en": "Sunaookami"
+      }
+    },
+    {
+      "id": 10011,
+      "name": {
+        "cn": "瞬",
+        "en": "Shun"
+      },
+      "family": {
+        "cn": "春原",
+        "en": "Sunohara"
+      }
+    },
+    {
+      "id": 10012,
+      "name": {
+        "cn": "堇",
+        "en": "Sumire"
+      },
+      "family": {
+        "cn": "乙花",
+        "en": "Otohana"
+      }
+    },
+    {
+      "id": 10013,
+      "name": {
+        "cn": "鹤城",
+        "en": "Tsurugi"
+      },
+      "family": {
+        "cn": "剑先",
+        "en": "Kenzaki"
+      }
+    },
+    {
+      "id": 10014,
+      "name": {
+        "cn": "泉奈",
+        "en": "Izuna"
+      },
+      "family": {
+        "cn": "久田",
+        "en": "Kuda"
+      }
+    },
+    {
+      "id": 10015,
+      "name": {
+        "cn": "爱丽丝",
+        "en": "Aris"
+      },
+      "family": {
+        "cn": "天童",
+        "en": "Tendou"
+      }
+    },
+    {
+      "id": 10016,
+      "name": {
+        "cn": "绿",
+        "en": "Midori"
+      },
+      "family": {
+        "cn": "才羽",
+        "en": "Saiba"
+      }
+    },
+    {
+      "id": 10017,
+      "name": {
+        "cn": "切里诺",
+        "en": "Cherino"
+      },
+      "family": {
+        "cn": "连河",
+        "en": "Renkawa"
+      }
+    },
+    {
+      "id": 10018,
+      "name": {
+        "cn": "柚子",
+        "en": "Yuzu"
+      },
+      "family": {
+        "cn": "花冈",
+        "en": "Hanaoka"
+      }
+    },
+    {
+      "id": 10019,
+      "name": {
+        "cn": "梓",
+        "en": "Azusa"
+      },
+      "family": {
+        "cn": "白洲",
+        "en": "Shirasu"
+      }
+    },
+    {
+      "id": 10020,
+      "name": {
+        "cn": "小春",
+        "en": "Koharu"
+      },
+      "family": {
+        "cn": "下江",
+        "en": "Shimoe"
+      }
+    },
+    {
+      "id": 10021,
+      "name": {
+        "cn": "梓(泳装)",
+        "en": "Azusa (Swimsuit)"
+      },
+      "family": {
+        "cn": "白洲",
+        "en": "Shirasu"
+      }
+    },
+    {
+      "id": 10022,
+      "name": {
+        "cn": "日奈(泳装)",
+        "en": "Hina (Swimsuit)"
+      },
+      "family": {
+        "cn": "空崎",
+        "en": "Sorasaki"
+      }
+    },
+    {
+      "id": 10023,
+      "name": {
+        "cn": "伊织(泳装)",
+        "en": "Iori (Swimsuit)"
+      },
+      "family": {
+        "cn": "银镜",
+        "en": "Shiromi"
+      }
+    },
+    {
+      "id": 10024,
+      "name": {
+        "cn": "白子(单车)",
+        "en": "Shiroko (Cycling)"
+      },
+      "family": {
+        "cn": "砂狼",
+        "en": "Sunaookami"
+      }
+    },
+    {
+      "id": 10025,
+      "name": {
+        "cn": "瞬(幼女)",
+        "en": "Shun (Small)"
+      },
+      "family": {
+        "cn": "春原",
+        "en": "Sunohara"
+      }
+    },
+    {
+      "id": 10026,
+      "name": {
+        "cn": "尼禄(兔女郎)",
+        "en": "Neru (Bunny)"
+      },
+      "family": {
+        "cn": "美甘",
+        "en": "Mikamo"
+      }
+    },
+    {
+      "id": 10027,
+      "name": {
+        "cn": "花凛(兔女郎)",
+        "en": "Karin (Bunny)"
+      },
+      "family": {
+        "cn": "角楯",
+        "en": "Kakudate"
+      }
+    },
+    {
+      "id": 10028,
+      "name": {
+        "cn": "明日奈(兔女郎)",
+        "en": "Asuna (Bunny)"
+      },
+      "family": {
+        "cn": "一之濑",
+        "en": "Ichinose"
+      }
+    },
+    {
+      "id": 10029,
+      "name": {
+        "cn": "夏",
+        "en": "Natsu"
+      },
+      "family": {
+        "cn": "柚鸟",
+        "en": "Yutori"
+      }
+    },
+    {
+      "id": 10030,
+      "name": {
+        "cn": "千夏(温泉)",
+        "en": "Chinatsu (Hot Spring)"
+      },
+      "family": {
+        "cn": "火宫",
+        "en": "Hinomiya"
+      }
+    },
+    {
+      "id": 10031,
+      "name": {
+        "cn": "阿露(正月)",
+        "en": "Aru (New Year)"
+      },
+      "family": {
+        "cn": "陆八魔",
+        "en": "Rikuhachima"
+      }
+    },
+    {
+      "id": 10032,
+      "name": {
+        "cn": "睦月(正月)",
+        "en": "Mutsuki (New Year)"
+      },
+      "family": {
+        "cn": "浅黄",
+        "en": "Asagi"
+      }
+    },
+    {
+      "id": 10033,
+      "name": {
+        "cn": "若藻",
+        "en": "Wakamo"
+      },
+      "family": {
+        "cn": "狐坂",
+        "en": "Kosaka"
+      }
+    },
+    {
+      "id": 10034,
+      "name": {
+        "cn": "三森",
+        "en": "Mimori"
+      },
+      "family": {
+        "cn": "水羽",
+        "en": "Mizuha"
+      }
+    },
+    {
+      "id": 10035,
+      "name": {
+        "cn": "忧",
+        "en": "Ui"
+      },
+      "family": {
+        "cn": "古关",
+        "en": "Kozeki"
+      }
+    },
+    {
+      "id": 10036,
+      "name": {
+        "cn": "日向",
+        "en": "Hinata"
+      },
+      "family": {
+        "cn": "若叶",
+        "en": "Wakaba"
+      }
+    },
+    {
+      "id": 10037,
+      "name": {
+        "cn": "玛利娜",
+        "en": "Marina"
+      },
+      "family": {
+        "cn": "池仓",
+        "en": "Ikekura"
+      }
+    },
+    {
+      "id": 10038,
+      "name": {
+        "cn": "宫子",
+        "en": "Miyako"
+      },
+      "family": {
+        "cn": "月雪",
+        "en": "Tsukiyuki"
+      }
+    },
+    {
+      "id": 10039,
+      "name": {
+        "cn": "美游",
+        "en": "Miyu"
+      },
+      "family": {
+        "cn": "霞泽",
+        "en": "Kasumizawa"
+      }
+    },
+    {
+      "id": 10040,
+      "name": {
+        "cn": "月咏",
+        "en": "Tsukuyo"
+      },
+      "family": {
+        "cn": "大野",
+        "en": "Ono"
+      }
+    },
+    {
+      "id": 10041,
+      "name": {
+        "cn": "美咲",
+        "en": "Misaki"
+      },
+      "family": {
+        "cn": "戒野",
+        "en": "Imashino"
+      }
+    },
+    {
+      "id": 10042,
+      "name": {
+        "cn": "亚津子",
+        "en": "Atsuko"
+      },
+      "family": {
+        "cn": "秤",
+        "en": "Hakari"
+      }
+    },
+    {
+      "id": 10043,
+      "name": {
+        "cn": "若藻(泳装)",
+        "en": "Wakamo (Swimsuit)"
+      },
+      "family": {
+        "cn": "狐坂",
+        "en": "Kosaka"
+      }
+    },
+    {
+      "id": 10044,
+      "name": {
+        "cn": "野宫(泳装)",
+        "en": "Nonomi (Swimsuit)"
+      },
+      "family": {
+        "cn": "十六夜",
+        "en": "Izayoi"
+      }
+    },
+    {
+      "id": 10045,
+      "name": {
+        "cn": "星野(泳装)",
+        "en": "Hoshino (Swimsuit)"
+      },
+      "family": {
+        "cn": "小鸟游",
+        "en": "Takanashi"
+      }
+    },
+    {
+      "id": 10046,
+      "name": {
+        "cn": "泉奈(泳装)",
+        "en": "Izuna (Swimsuit)"
+      },
+      "family": {
+        "cn": "久田",
+        "en": "Kuda"
+      }
+    },
+    {
+      "id": 10047,
+      "name": {
+        "cn": "千世(泳装)",
+        "en": "Chise (Swimsuit)"
+      },
+      "family": {
+        "cn": "和乐",
+        "en": "Waraku"
+      }
+    },
+    {
+      "id": 10048,
+      "name": {
+        "cn": "纱织",
+        "en": "Saori"
+      },
+      "family": {
+        "cn": "锭前",
+        "en": "Joumae"
+      }
+    },
+    {
+      "id": 10049,
+      "name": {
+        "cn": "和纱",
+        "en": "Kazusa"
+      },
+      "family": {
+        "cn": "杏山",
+        "en": "Kyoyama"
+      }
+    },
+    {
+      "id": 10050,
+      "name": {
+        "cn": "心奈",
+        "en": "Kokona"
+      },
+      "family": {
+        "cn": "春原",
+        "en": "Sunohara"
+      }
+    },
+    {
+      "id": 10051,
+      "name": {
+        "cn": "咏叶(应援团)",
+        "en": "Utaha (Cheer Squad)"
+      },
+      "family": {
+        "cn": "白石",
+        "en": "Shiraishi"
+      }
+    },
+    {
+      "id": 10052,
+      "name": {
+        "cn": "诺亚",
+        "en": "Noa"
+      },
+      "family": {
+        "cn": "生盐",
+        "en": "Ushio"
+      }
+    },
+    {
+      "id": 10053,
+      "name": {
+        "cn": "优香(体操服)",
+        "en": "Yuuka (Track)"
+      },
+      "family": {
+        "cn": "早濑",
+        "en": "Hayase"
+      }
+    },
+    {
+      "id": 10054,
+      "name": {
+        "cn": "玛丽(体操服)",
+        "en": "Mari (Track)"
+      },
+      "family": {
+        "cn": "伊落",
+        "en": "Iochi"
+      }
+    },
+    {
+      "id": 10055,
+      "name": {
+        "cn": "时雨",
+        "en": "Shigure"
+      },
+      "family": {
+        "cn": "间宵",
+        "en": "Mayoi"
+      }
+    },
+    {
+      "id": 10056,
+      "name": {
+        "cn": "芹奈(圣诞)",
+        "en": "Serina (Christmas)"
+      },
+      "family": {
+        "cn": "鹫见",
+        "en": "Sumi"
+      }
+    },
+    {
+      "id": 10057,
+      "name": {
+        "cn": "晴奈(正月)",
+        "en": "Haruna (New Year)"
+      },
+      "family": {
+        "cn": "黑馆",
+        "en": "Kurodate"
+      }
+    },
+    {
+      "id": 10058,
+      "name": {
+        "cn": "美弥",
+        "en": "Mine"
+      },
+      "family": {
+        "cn": "苍森",
+        "en": "Aomori"
+      }
+    },
+    {
+      "id": 10059,
+      "name": {
+        "cn": "未花",
+        "en": "Mika"
+      },
+      "family": {
+        "cn": "圣园",
+        "en": "Misono"
+      }
+    },
+    {
+      "id": 10060,
+      "name": {
+        "cn": "惠",
+        "en": "Megu"
+      },
+      "family": {
+        "cn": "下仓",
+        "en": "Shimokura"
+      }
+    },
+    {
+      "id": 10061,
+      "name": {
+        "cn": "樱子",
+        "en": "Sakurako"
+      },
+      "family": {
+        "cn": "歌住",
+        "en": "Utazumi"
+      }
+    },
+    {
+      "id": 10062,
+      "name": {
+        "cn": "时",
+        "en": "Toki"
+      },
+      "family": {
+        "cn": "飞鸟马",
+        "en": "Asuma"
+      }
+    },
+    {
+      "id": 10063,
+      "name": {
+        "cn": "小雪",
+        "en": "Koyuki"
+      },
+      "family": {
+        "cn": "黑崎",
+        "en": "Kurosaki"
+      }
+    },
+    {
+      "id": 10064,
+      "name": {
+        "cn": "佳代子(正月)",
+        "en": "Kayoko (New Year)"
+      },
+      "family": {
+        "cn": "鬼方",
+        "en": "Onikata"
+      }
+    },
+    {
+      "id": 10065,
+      "name": {
+        "cn": "果穗",
+        "en": "Kaho"
+      },
+      "family": {
+        "cn": "桑上",
+        "en": "Kuwakami"
+      }
+    },
+    {
+      "id": 10066,
+      "name": {
+        "cn": "爱丽丝(女仆装)",
+        "en": "Aris (Maid)"
+      },
+      "family": {
+        "cn": "天童",
+        "en": "Tendou"
+      }
+    },
+    {
+      "id": 10067,
+      "name": {
+        "cn": "时(兔女郎)",
+        "en": "Toki (Bunny)"
+      },
+      "family": {
+        "cn": "飞鸟马",
+        "en": "Asuma"
+      }
+    },
+    {
+      "id": 10068,
+      "name": {
+        "cn": "玲纱",
+        "en": "Reisa"
+      },
+      "family": {
+        "cn": "宇泽",
+        "en": "Uzawa"
+      }
+    },
+    {
+      "id": 10069,
+      "name": {
+        "cn": "瑠美",
+        "en": "Rumi"
+      },
+      "family": {
+        "cn": "朱城",
+        "en": "Akeshiro"
+      }
+    },
+    {
+      "id": 10070,
+      "name": {
+        "cn": "弥奈",
+        "en": "Mina"
+      },
+      "family": {
+        "cn": "近卫",
+        "en": "Konoe"
+      }
+    },
+    {
+      "id": 10071,
+      "name": {
+        "cn": "宫子(泳装)",
+        "en": "Miyako (Swimsuit)"
+      },
+      "family": {
+        "cn": "月雪",
+        "en": "Tsukiyuki"
+      }
+    },
+    {
+      "id": 10072,
+      "name": {
+        "cn": "咲(泳装)",
+        "en": "Saki (Swimsuit)"
+      },
+      "family": {
+        "cn": "空井",
+        "en": "Sorai"
+      }
+    },
+    {
+      "id": 10073,
+      "name": {
+        "cn": "忧(泳装)",
+        "en": "Ui (Swimsuit)"
+      },
+      "family": {
+        "cn": "古关",
+        "en": "Kozeki"
+      }
+    },
+    {
+      "id": 10074,
+      "name": {
+        "cn": "花子(泳装)",
+        "en": "Hanako (Swimsuit)"
+      },
+      "family": {
+        "cn": "浦和",
+        "en": "Urawa"
+      }
+    },
+    {
+      "id": 10075,
+      "name": {
+        "cn": "梅露",
+        "en": "Meru"
+      },
+      "family": {
+        "cn": "姬木",
+        "en": "Himeki"
+      }
+    },
+    {
+      "id": 10076,
+      "name": {
+        "cn": "小鸟(应援团)",
+        "en": "Kotori (Cheer Squad)"
+      },
+      "family": {
+        "cn": "丰见",
+        "en": "Toyomi"
+      }
+    },
+    {
+      "id": 10077,
+      "name": {
+        "cn": "一花",
+        "en": "Ichika"
+      },
+      "family": {
+        "cn": "仲正",
+        "en": "Nakamasa"
+      }
+    },
+    {
+      "id": 10078,
+      "name": {
+        "cn": "霞",
+        "en": "Kasumi"
+      },
+      "family": {
+        "cn": "鬼怒川",
+        "en": "Kinugawa"
+      }
+    },
+    {
+      "id": 10079,
+      "name": {
+        "cn": "御坂美琴",
+        "en": "Misaka Mikoto"
+      },
+      "family": {
+        "cn": "御坂",
+        "en": "Misaka"
+      }
+    },
+    {
+      "id": 10080,
+      "name": {
+        "cn": "食蜂操祈",
+        "en": "Shokuhou Misaki"
+      },
+      "family": {
+        "cn": "食蜂",
+        "en": "Shokuhou"
+      }
+    },
+    {
+      "id": 10081,
+      "name": {
+        "cn": "紫蓠",
+        "en": "Yukari"
+      },
+      "family": {
+        "cn": "勘解由小路",
+        "en": "Kadenokouji"
+      }
+    },
+    {
+      "id": 10082,
+      "name": {
+        "cn": "莲华",
+        "en": "Renge"
+      },
+      "family": {
+        "cn": "不破",
+        "en": "Fuwa"
+      }
+    },
+    {
+      "id": 10083,
+      "name": {
+        "cn": "桔梗",
+        "en": "Kikyou"
+      },
+      "family": {
+        "cn": "桐生",
+        "en": "Kiryuu"
+      }
+    },
+    {
+      "id": 10084,
+      "name": {
+        "cn": "小玉(露营)",
+        "en": "Kotama (Camp)"
+      },
+      "family": {
+        "cn": "音濑",
+        "en": "Otose"
+      }
+    },
+    {
+      "id": 10085,
+      "name": {
+        "cn": "晴(露营)",
+        "en": "Hare (Camp)"
+      },
+      "family": {
+        "cn": "小钩",
+        "en": "Omagari"
+      }
+    },
+    {
+      "id": 10086,
+      "name": {
+        "cn": "日奈(礼服)",
+        "en": "Hina (Dress)"
+      },
+      "family": {
+        "cn": "空崎",
+        "en": "Sorasaki"
+      }
+    },
+    {
+      "id": 10087,
+      "name": {
+        "cn": "亚子(礼服)",
+        "en": "Ako (Dress)"
+      },
+      "family": {
+        "cn": "天雨",
+        "en": "Amau"
+      }
+    },
+    {
+      "id": 10088,
+      "name": {
+        "cn": "佳代子(礼服)",
+        "en": "Kayoko (Dress)"
+      },
+      "family": {
+        "cn": "鬼方",
+        "en": "Onikata"
+      }
+    },
+    {
+      "id": 10089,
+      "name": {
+        "cn": "阿露(礼服)",
+        "en": "Aru (Dress)"
+      },
+      "family": {
+        "cn": "陆八魔",
+        "en": "Rikuhachima"
+      }
+    },
+    {
+      "id": 10090,
+      "name": {
+        "cn": "海夏",
+        "en": "Umika"
+      },
+      "family": {
+        "cn": "里滨",
+        "en": "Satohama"
+      }
+    },
+    {
+      "id": 10091,
+      "name": {
+        "cn": "和纱(乐队)",
+        "en": "Kazusa (Band)"
+      },
+      "family": {
+        "cn": "杏山",
+        "en": "Kyoyama"
+      }
+    },
+    {
+      "id": 10092,
+      "name": {
+        "cn": "喜美(乐队)",
+        "en": "Yoshimi (Band)"
+      },
+      "family": {
+        "cn": "伊原木",
+        "en": "Ibaragi"
+      }
+    },
+    {
+      "id": 10093,
+      "name": {
+        "cn": "绮罗罗",
+        "en": "Kirara"
+      },
+      "family": {
+        "cn": "夜樱",
+        "en": "Yozakura"
+      }
+    },
+    {
+      "id": 10094,
+      "name": {
+        "cn": "桃井(女仆装)",
+        "en": "Momoi (Maid)"
+      },
+      "family": {
+        "cn": "才羽",
+        "en": "Saiba"
+      }
+    },
+    {
+      "id": 10095,
+      "name": {
+        "cn": "绿(女仆装)",
+        "en": "Midori (Maid)"
+      },
+      "family": {
+        "cn": "才羽",
+        "en": "Saiba"
+      }
+    },
+    {
+      "id": 10096,
+      "name": {
+        "cn": "康娜(泳装)",
+        "en": "Kanna (Swimsuit)"
+      },
+      "family": {
+        "cn": "尾刃",
+        "en": "Ogata"
+      }
+    },
+    {
+      "id": 10097,
+      "name": {
+        "cn": "萌绘(泳装)",
+        "en": "Moe (Swimsuit)"
+      },
+      "family": {
+        "cn": "风仓",
+        "en": "Kazekura"
+      }
+    },
+    {
+      "id": 10098,
+      "name": {
+        "cn": "星野(临战)",
+        "en": "Hoshino (Armed)"
+      },
+      "family": {
+        "cn": "小鸟游",
+        "en": "Takanashi"
+      }
+    },
+    {
+      "id": 10100,
+      "name": {
+        "cn": "白子＊恐怖",
+        "en": "Shiroko*Terror"
+      },
+      "family": {
+        "cn": "砂狼",
+        "en": "Sunaookami"
+      }
+    },
+    {
+      "id": 10101,
+      "name": {
+        "cn": "纱织(泳装)",
+        "en": "Saori (Swimsuit)"
+      },
+      "family": {
+        "cn": "锭前",
+        "en": "Joumae"
+      }
+    },
+    {
+      "id": 10102,
+      "name": {
+        "cn": "日和(泳装)",
+        "en": "Hiyori (Swimsuit)"
+      },
+      "family": {
+        "cn": "槌永",
+        "en": "Tsuchinaga"
+      }
+    },
+    {
+      "id": 10103,
+      "name": {
+        "cn": "玛利娜(旗袍)",
+        "en": "Marina (Qipao)"
+      },
+      "family": {
+        "cn": "池仓",
+        "en": "Ikekura"
+      }
+    },
+    {
+      "id": 10104,
+      "name": {
+        "cn": "俪舒",
+        "en": "Reijo"
+      },
+      "family": {
+        "cn": "鹿山",
+        "en": "Kayama"
+      }
+    },
+    {
+      "id": 10105,
+      "name": {
+        "cn": "玛丽(偶像)",
+        "en": "Mari (Pop Idol)"
+      },
+      "family": {
+        "cn": "伊落",
+        "en": "Iochi"
+      }
+    },
+    {
+      "id": 10106,
+      "name": {
+        "cn": "樱子(偶像)",
+        "en": "Sakurako (Pop Idol)"
+      },
+      "family": {
+        "cn": "歌住",
+        "en": "Utazumi"
+      }
+    },
+    {
+      "id": 10107,
+      "name": {
+        "cn": "千秋",
+        "en": "Chiaki"
+      },
+      "family": {
+        "cn": "元宫",
+        "en": "Motomiya"
+      }
+    },
+    {
+      "id": 10108,
+      "name": {
+        "cn": "优香(睡衣)",
+        "en": "Yuuka (Pajamas)"
+      },
+      "family": {
+        "cn": "早濑",
+        "en": "Hayase"
+      }
+    },
+    {
+      "id": 10109,
+      "name": {
+        "cn": "诺亚(睡衣)",
+        "en": "Noa (Pajamas)"
+      },
+      "family": {
+        "cn": "生盐",
+        "en": "Ushio"
+      }
+    },
+    {
+      "id": 10110,
+      "name": {
+        "cn": "圣娅",
+        "en": "Seia"
+      },
+      "family": {
+        "cn": "百合园",
+        "en": "Yurizono"
+      }
+    },
+    {
+      "id": 10111,
+      "name": {
+        "cn": "尼禄(制服)",
+        "en": "Neru (School)"
+      },
+      "family": {
+        "cn": "美甘",
+        "en": "Mikamo"
+      }
+    },
+    {
+      "id": 10112,
+      "name": {
+        "cn": "明日奈(制服)",
+        "en": "Asuna (School)"
+      },
+      "family": {
+        "cn": "一之濑",
+        "en": "Ichinose"
+      }
+    },
+    {
+      "id": 10113,
+      "name": {
+        "cn": "濑名(私服)",
+        "en": "Sena (Casual)"
+      },
+      "family": {
+        "cn": "冰室",
+        "en": "Himuro"
+      }
+    },
+    {
+      "id": 10114,
+      "name": {
+        "cn": "茱莉(打工)",
+        "en": "Juri (Part-Timer)"
+      },
+      "family": {
+        "cn": "牛牧",
+        "en": "Ushimaki"
+      }
+    },
+    {
+      "id": 10115,
+      "name": {
+        "cn": "丽",
+        "en": "Rei"
+      },
+      "family": {
+        "cn": "野正",
+        "en": "Nomasa"
+      }
+    },
+    {
+      "id": 10116,
+      "name": {
+        "cn": "纱织(礼服)",
+        "en": "Saori (Dress)"
+      },
+      "family": {
+        "cn": "锭前",
+        "en": "Joumae"
+      }
+    },
+    {
+      "id": 10117,
+      "name": {
+        "cn": "光",
+        "en": "Hikari"
+      },
+      "family": {
+        "cn": "橘",
+        "en": "Tachibana"
+      }
+    },
+    {
+      "id": 10118,
+      "name": {
+        "cn": "望",
+        "en": "Nozomi"
+      },
+      "family": {
+        "cn": "橘",
+        "en": "Tachibana"
+      }
+    },
+    {
+      "id": 10119,
+      "name": {
+        "cn": "名草",
+        "en": "Nagusa"
+      },
+      "family": {
+        "cn": "御棱",
+        "en": "Goryou"
+      }
+    },
+    {
+      "id": 10120,
+      "name": {
+        "cn": "夏(乐队)",
+        "en": "Natsu (Band)"
+      },
+      "family": {
+        "cn": "柚鸟",
+        "en": "Yutori"
+      }
+    },
+    {
+      "id": 10122,
+      "name": {
+        "cn": "未花(泳装)",
+        "en": "Mika (Swimsuit)"
+      },
+      "family": {
+        "cn": "圣园",
+        "en": "Misono"
+      }
+    },
+    {
+      "id": 13000,
+      "name": {
+        "cn": "朱音",
+        "en": "Akane"
+      },
+      "family": {
+        "cn": "室笠",
+        "en": "Murokasa"
+      }
+    },
+    {
+      "id": 13001,
+      "name": {
+        "cn": "千世",
+        "en": "Chise"
+      },
+      "family": {
+        "cn": "和乐",
+        "en": "Waraku"
+      }
+    },
+    {
+      "id": 13002,
+      "name": {
+        "cn": "明里",
+        "en": "Akari"
+      },
+      "family": {
+        "cn": "鳄渊",
+        "en": "Wanibuchi"
+      }
+    },
+    {
+      "id": 13003,
+      "name": {
+        "cn": "莲见",
+        "en": "Hasumi"
+      },
+      "family": {
+        "cn": "羽川",
+        "en": "Hanekawa"
+      }
+    },
+    {
+      "id": 13004,
+      "name": {
+        "cn": "野宫",
+        "en": "Nonomi"
+      },
+      "family": {
+        "cn": "十六夜",
+        "en": "Izayoi"
+      }
+    },
+    {
+      "id": 13005,
+      "name": {
+        "cn": "佳代子",
+        "en": "Kayoko"
+      },
+      "family": {
+        "cn": "鬼方",
+        "en": "Onikata"
+      }
+    },
+    {
+      "id": 13006,
+      "name": {
+        "cn": "睦月",
+        "en": "Mutsuki"
+      },
+      "family": {
+        "cn": "浅黄",
+        "en": "Asagi"
+      }
+    },
+    {
+      "id": 13007,
+      "name": {
+        "cn": "纯子",
+        "en": "Junko"
+      },
+      "family": {
+        "cn": "赤司",
+        "en": "Akashi"
+      }
+    },
+    {
+      "id": 13008,
+      "name": {
+        "cn": "芹香",
+        "en": "Serika"
+      },
+      "family": {
+        "cn": "黑见",
+        "en": "Kuromi"
+      }
+    },
+    {
+      "id": 13009,
+      "name": {
+        "cn": "椿",
+        "en": "Tsubaki"
+      },
+      "family": {
+        "cn": "春日",
+        "en": "Kasuga"
+      }
+    },
+    {
+      "id": 13010,
+      "name": {
+        "cn": "优香",
+        "en": "Yuuka"
+      },
+      "family": {
+        "cn": "早濑",
+        "en": "Hayase"
+      }
+    },
+    {
+      "id": 13011,
+      "name": {
+        "cn": "桃井",
+        "en": "Momoi"
+      },
+      "family": {
+        "cn": "才羽",
+        "en": "Saiba"
+      }
+    },
+    {
+      "id": 13012,
+      "name": {
+        "cn": "桐乃",
+        "en": "Kirino"
+      },
+      "family": {
+        "cn": "中务",
+        "en": "Nakatsukasa"
+      }
+    },
+    {
+      "id": 13013,
+      "name": {
+        "cn": "红叶",
+        "en": "Momiji"
+      },
+      "family": {
+        "cn": "秋泉",
+        "en": "Akiizumi"
+      }
+    },
+    {
+      "id": 16000,
+      "name": {
+        "cn": "遥香",
+        "en": "Haruka"
+      },
+      "family": {
+        "cn": "伊草",
+        "en": "Igusa"
+      }
+    },
+    {
+      "id": 16001,
+      "name": {
+        "cn": "明日奈",
+        "en": "Asuna"
+      },
+      "family": {
+        "cn": "一之濑",
+        "en": "Ichinose"
+      }
+    },
+    {
+      "id": 16002,
+      "name": {
+        "cn": "小鸟",
+        "en": "Kotori"
+      },
+      "family": {
+        "cn": "丰见",
+        "en": "Toyomi"
+      }
+    },
+    {
+      "id": 16003,
+      "name": {
+        "cn": "铃美",
+        "en": "Suzumi"
+      },
+      "family": {
+        "cn": "守月",
+        "en": "Morizuki"
+      }
+    },
+    {
+      "id": 16004,
+      "name": {
+        "cn": "菲娜",
+        "en": "Pina"
+      },
+      "family": {
+        "cn": "朝比奈",
+        "en": "Asahina"
+      }
+    },
+    {
+      "id": 16005,
+      "name": {
+        "cn": "鹤城(泳装)",
+        "en": "Tsurugi (Swimsuit)"
+      },
+      "family": {
+        "cn": "剑先",
+        "en": "Kenzaki"
+      }
+    },
+    {
+      "id": 16006,
+      "name": {
+        "cn": "泉(泳装)",
+        "en": "Izumi (Swimsuit)"
+      },
+      "family": {
+        "cn": "狮子堂",
+        "en": "Shishidou"
+      }
+    },
+    {
+      "id": 16007,
+      "name": {
+        "cn": "巴",
+        "en": "Tomoe"
+      },
+      "family": {
+        "cn": "佐城",
+        "en": "Sashiro"
+      }
+    },
+    {
+      "id": 16008,
+      "name": {
+        "cn": "吹雪",
+        "en": "Fubuki"
+      },
+      "family": {
+        "cn": "合欢垣",
+        "en": "Nemugaki"
+      }
+    },
+    {
+      "id": 16009,
+      "name": {
+        "cn": "满",
+        "en": "Michiru"
+      },
+      "family": {
+        "cn": "千鸟",
+        "en": "Chidori"
+      }
+    },
+    {
+      "id": 16010,
+      "name": {
+        "cn": "响(应援团)",
+        "en": "Hibiki (Cheer Squad)"
+      },
+      "family": {
+        "cn": "猫塚",
+        "en": "Nekozuka"
+      }
+    },
+    {
+      "id": 16011,
+      "name": {
+        "cn": "莲见(体操服)",
+        "en": "Hasumi (Track)"
+      },
+      "family": {
+        "cn": "羽川",
+        "en": "Hanekawa"
+      }
+    },
+    {
+      "id": 16012,
+      "name": {
+        "cn": "纯子(正月)",
+        "en": "Junko (New Year)"
+      },
+      "family": {
+        "cn": "赤司",
+        "en": "Akashi"
+      }
+    },
+    {
+      "id": 16013,
+      "name": {
+        "cn": "小春(泳装)",
+        "en": "Koharu (Swimsuit)"
+      },
+      "family": {
+        "cn": "下江",
+        "en": "Shimoe"
+      }
+    },
+    {
+      "id": 16014,
+      "name": {
+        "cn": "伊吹",
+        "en": "Ibuki"
+      },
+      "family": {
+        "cn": "丹花",
+        "en": "Tanga"
+      }
+    },
+    {
+      "id": 16015,
+      "name": {
+        "cn": "爱莉(乐队)",
+        "en": "Airi (Band)"
+      },
+      "family": {
+        "cn": "栗村",
+        "en": "Kurimura"
+      }
+    },
+    {
+      "id": 16016,
+      "name": {
+        "cn": "美弥(偶像)",
+        "en": "Mine (Pop Idol)"
+      },
+      "family": {
+        "cn": "苍森",
+        "en": "Aomori"
+      }
+    },
+    {
+      "id": 16017,
+      "name": {
+        "cn": "青叶",
+        "en": "Aoba"
+      },
+      "family": {
+        "cn": "内海",
+        "en": "Utsumi"
+      }
+    },
+    {
+      "id": 20000,
+      "name": {
+        "cn": "响",
+        "en": "Hibiki"
+      },
+      "family": {
+        "cn": "猫塚",
+        "en": "Nekozuka"
+      }
+    },
+    {
+      "id": 20001,
+      "name": {
+        "cn": "花凛",
+        "en": "Karin"
+      },
+      "family": {
+        "cn": "角楯",
+        "en": "Kakudate"
+      }
+    },
+    {
+      "id": 20002,
+      "name": {
+        "cn": "沙耶",
+        "en": "Saya"
+      },
+      "family": {
+        "cn": "药子",
+        "en": "Yakushi"
+      }
+    },
+    {
+      "id": 20003,
+      "name": {
+        "cn": "真白",
+        "en": "Mashiro"
+      },
+      "family": {
+        "cn": "静山",
+        "en": "Shizuyama"
+      }
+    },
+    {
+      "id": 20004,
+      "name": {
+        "cn": "真白(泳装)",
+        "en": "Mashiro (Swimsuit)"
+      },
+      "family": {
+        "cn": "静山",
+        "en": "Shizuyama"
+      }
+    },
+    {
+      "id": 20005,
+      "name": {
+        "cn": "日富美(泳装)",
+        "en": "Hifumi (Swimsuit)"
+      },
+      "family": {
+        "cn": "阿慈谷",
+        "en": "Ajitani"
+      }
+    },
+    {
+      "id": 20006,
+      "name": {
+        "cn": "沙耶(私服)",
+        "en": "Saya (Casual)"
+      },
+      "family": {
+        "cn": "药子",
+        "en": "Yakushi"
+      }
+    },
+    {
+      "id": 20007,
+      "name": {
+        "cn": "初音未来",
+        "en": "Hatsune Miku"
+      },
+      "family": {
+        "cn": "初音",
+        "en": "Hatsune"
+      }
+    },
+    {
+      "id": 20008,
+      "name": {
+        "cn": "亚子",
+        "en": "Ako"
+      },
+      "family": {
+        "cn": "天雨",
+        "en": "Amau"
+      }
+    },
+    {
+      "id": 20009,
+      "name": {
+        "cn": "切里诺(温泉)",
+        "en": "Cherino (Hot Spring)"
+      },
+      "family": {
+        "cn": "连河",
+        "en": "Renkawa"
+      }
+    },
+    {
+      "id": 20010,
+      "name": {
+        "cn": "和香(温泉)",
+        "en": "Nodoka (Hot Spring)"
+      },
+      "family": {
+        "cn": "天见",
+        "en": "Amami"
+      }
+    },
+    {
+      "id": 20011,
+      "name": {
+        "cn": "芹香(正月)",
+        "en": "Serika (New Year)"
+      },
+      "family": {
+        "cn": "黑见",
+        "en": "Kuromi"
+      }
+    },
+    {
+      "id": 20012,
+      "name": {
+        "cn": "濑名",
+        "en": "Sena"
+      },
+      "family": {
+        "cn": "冰室",
+        "en": "Himuro"
+      }
+    },
+    {
+      "id": 20013,
+      "name": {
+        "cn": "千寻",
+        "en": "Chihiro"
+      },
+      "family": {
+        "cn": "各务",
+        "en": "Kagami"
+      }
+    },
+    {
+      "id": 20014,
+      "name": {
+        "cn": "咲",
+        "en": "Saki"
+      },
+      "family": {
+        "cn": "空井",
+        "en": "Sorai"
+      }
+    },
+    {
+      "id": 20015,
+      "name": {
+        "cn": "枫",
+        "en": "Kaede"
+      },
+      "family": {
+        "cn": "勇美",
+        "en": "Isami"
+      }
+    },
+    {
+      "id": 20016,
+      "name": {
+        "cn": "伊吕波",
+        "en": "Iroha"
+      },
+      "family": {
+        "cn": "枣",
+        "en": "Natsume"
+      }
+    },
+    {
+      "id": 20017,
+      "name": {
+        "cn": "日和",
+        "en": "Hiyori"
+      },
+      "family": {
+        "cn": "槌永",
+        "en": "Tsuchinaga"
+      }
+    },
+    {
+      "id": 20018,
+      "name": {
+        "cn": "萌绘",
+        "en": "Moe"
+      },
+      "family": {
+        "cn": "风仓",
+        "en": "Kazekura"
+      }
+    },
+    {
+      "id": 20019,
+      "name": {
+        "cn": "朱音(兔女郎)",
+        "en": "Akane (Bunny)"
+      },
+      "family": {
+        "cn": "室笠",
+        "en": "Murokasa"
+      }
+    },
+    {
+      "id": 20020,
+      "name": {
+        "cn": "日鞠",
+        "en": "Himari"
+      },
+      "family": {
+        "cn": "明星",
+        "en": "Akeboshi"
+      }
+    },
+    {
+      "id": 20021,
+      "name": {
+        "cn": "花绘(圣诞)",
+        "en": "Hanae (Christmas)"
+      },
+      "family": {
+        "cn": "朝颜",
+        "en": "Asagao"
+      }
+    },
+    {
+      "id": 20022,
+      "name": {
+        "cn": "枫香(正月)",
+        "en": "Fuuka (New Year)"
+      },
+      "family": {
+        "cn": "爱清",
+        "en": "Aikiyo"
+      }
+    },
+    {
+      "id": 20023,
+      "name": {
+        "cn": "康娜",
+        "en": "Kanna"
+      },
+      "family": {
+        "cn": "尾刃",
+        "en": "Ogata"
+      }
+    },
+    {
+      "id": 20024,
+      "name": {
+        "cn": "渚",
+        "en": "Nagisa"
+      },
+      "family": {
+        "cn": "桐藤",
+        "en": "Kirifuji"
+      }
+    },
+    {
+      "id": 20025,
+      "name": {
+        "cn": "遥香(正月)",
+        "en": "Haruka (New Year)"
+      },
+      "family": {
+        "cn": "伊草",
+        "en": "Igusa"
+      }
+    },
+    {
+      "id": 20026,
+      "name": {
+        "cn": "实里",
+        "en": "Minori"
+      },
+      "family": {
+        "cn": "安守",
+        "en": "Yasumori"
+      }
+    },
+    {
+      "id": 20027,
+      "name": {
+        "cn": "白子(泳装)",
+        "en": "Shiroko (Swimsuit)"
+      },
+      "family": {
+        "cn": "砂狼",
+        "en": "Sunaookami"
+      }
+    },
+    {
+      "id": 20028,
+      "name": {
+        "cn": "日向(泳装)",
+        "en": "Hinata (Swimsuit)"
+      },
+      "family": {
+        "cn": "若叶",
+        "en": "Wakaba"
+      }
+    },
+    {
+      "id": 20029,
+      "name": {
+        "cn": "三森(泳装)",
+        "en": "Mimori (Swimsuit)"
+      },
+      "family": {
+        "cn": "水羽",
+        "en": "Mizuha"
+      }
+    },
+    {
+      "id": 20030,
+      "name": {
+        "cn": "晴奈(体操服)",
+        "en": "Haruna (Track)"
+      },
+      "family": {
+        "cn": "黑馆",
+        "en": "Kurodate"
+      }
+    },
+    {
+      "id": 20031,
+      "name": {
+        "cn": "时雨(温泉)",
+        "en": "Shigure (Hot Spring)"
+      },
+      "family": {
+        "cn": "间宵",
+        "en": "Mayoi"
+      }
+    },
+    {
+      "id": 20032,
+      "name": {
+        "cn": "艾米(泳装)",
+        "en": "Eimi (Swimsuit)"
+      },
+      "family": {
+        "cn": "和泉元",
+        "en": "Izumimoto"
+      }
+    },
+    {
+      "id": 20033,
+      "name": {
+        "cn": "真琴",
+        "en": "Makoto"
+      },
+      "family": {
+        "cn": "羽沼",
+        "en": "Hanuma"
+      }
+    },
+    {
+      "id": 20034,
+      "name": {
+        "cn": "明里(正月)",
+        "en": "Akari (New Year)"
+      },
+      "family": {
+        "cn": "鳄渊",
+        "en": "Wanibuchi"
+      }
+    },
+    {
+      "id": 20035,
+      "name": {
+        "cn": "椿(向导)",
+        "en": "Tsubaki (Guide)"
+      },
+      "family": {
+        "cn": "春日",
+        "en": "Kasuga"
+      }
+    },
+    {
+      "id": 20036,
+      "name": {
+        "cn": "芹香(泳装)",
+        "en": "Serika (Swimsuit)"
+      },
+      "family": {
+        "cn": "黑见",
+        "en": "Kuromi"
+      }
+    },
+    {
+      "id": 20037,
+      "name": {
+        "cn": "吹雪(泳装)",
+        "en": "Fubuki (Swimsuit)"
+      },
+      "family": {
+        "cn": "合欢垣",
+        "en": "Nemugaki"
+      }
+    },
+    {
+      "id": 20038,
+      "name": {
+        "cn": "巴(旗袍)",
+        "en": "Tomoe (Qipao)"
+      },
+      "family": {
+        "cn": "佐城",
+        "en": "Sashiro"
+      }
+    },
+    {
+      "id": 20039,
+      "name": {
+        "cn": "妃咲",
+        "en": "Kisaki"
+      },
+      "family": {
+        "cn": "龙华",
+        "en": "Ryuuge"
+      }
+    },
+    {
+      "id": 20040,
+      "name": {
+        "cn": "皋月",
+        "en": "Satsuki"
+      },
+      "family": {
+        "cn": "京极",
+        "en": "Kyougoku"
+      }
+    },
+    {
+      "id": 20041,
+      "name": {
+        "cn": "莉音",
+        "en": "Rio"
+      },
+      "family": {
+        "cn": "调月",
+        "en": "Tsukatsuki"
+      }
+    },
+    {
+      "id": 20042,
+      "name": {
+        "cn": "真纪(露营)",
+        "en": "Maki (Camp)"
+      },
+      "family": {
+        "cn": "小涂",
+        "en": "Konuri"
+      }
+    },
+    {
+      "id": 20043,
+      "name": {
+        "cn": "泉(正月)",
+        "en": "Izumi (New Year)"
+      },
+      "family": {
+        "cn": "狮子堂",
+        "en": "Shishidou"
+      }
+    },
+    {
+      "id": 20044,
+      "name": {
+        "cn": "堇(打工)",
+        "en": "Sumire (Part-Timer)"
+      },
+      "family": {
+        "cn": "乙花",
+        "en": "Otohana"
+      }
+    },
+    {
+      "id": 20045,
+      "name": {
+        "cn": "菲娜(向导)",
+        "en": "Pina (Guide)"
+      },
+      "family": {
+        "cn": "朝比奈",
+        "en": "Asahina"
+      }
+    },
+    {
+      "id": 20046,
+      "name": {
+        "cn": "妮娅",
+        "en": "Niya"
+      },
+      "family": {
+        "cn": "天地",
+        "en": "Amachi"
+      }
+    },
+    {
+      "id": 23000,
+      "name": {
+        "cn": "爱莉",
+        "en": "Airi"
+      },
+      "family": {
+        "cn": "栗村",
+        "en": "Kurimura"
+      }
+    },
+    {
+      "id": 23001,
+      "name": {
+        "cn": "枫香",
+        "en": "Fuuka"
+      },
+      "family": {
+        "cn": "爱清",
+        "en": "Aikiyo"
+      }
+    },
+    {
+      "id": 23002,
+      "name": {
+        "cn": "花绘",
+        "en": "Hanae"
+      },
+      "family": {
+        "cn": "朝颜",
+        "en": "Asagao"
+      }
+    },
+    {
+      "id": 23003,
+      "name": {
+        "cn": "晴",
+        "en": "Hare"
+      },
+      "family": {
+        "cn": "小钩",
+        "en": "Omagari"
+      }
+    },
+    {
+      "id": 23004,
+      "name": {
+        "cn": "咏叶",
+        "en": "Utaha"
+      },
+      "family": {
+        "cn": "白石",
+        "en": "Shiraishi"
+      }
+    },
+    {
+      "id": 23005,
+      "name": {
+        "cn": "绫音",
+        "en": "Ayane"
+      },
+      "family": {
+        "cn": "奥空",
+        "en": "Okusora"
+      }
+    },
+    {
+      "id": 23006,
+      "name": {
+        "cn": "静子",
+        "en": "Shizuko"
+      },
+      "family": {
+        "cn": "河和",
+        "en": "Kawawa"
+      }
+    },
+    {
+      "id": 23007,
+      "name": {
+        "cn": "花子",
+        "en": "Hanako"
+      },
+      "family": {
+        "cn": "浦和",
+        "en": "Urawa"
+      }
+    },
+    {
+      "id": 23008,
+      "name": {
+        "cn": "玛丽",
+        "en": "Mari"
+      },
+      "family": {
+        "cn": "伊落",
+        "en": "Iochi"
+      }
+    },
+    {
+      "id": 26000,
+      "name": {
+        "cn": "千夏",
+        "en": "Chinatsu"
+      },
+      "family": {
+        "cn": "火宫",
+        "en": "Hinomiya"
+      }
+    },
+    {
+      "id": 26001,
+      "name": {
+        "cn": "小玉",
+        "en": "Kotama"
+      },
+      "family": {
+        "cn": "音濑",
+        "en": "Otose"
+      }
+    },
+    {
+      "id": 26002,
+      "name": {
+        "cn": "茱莉",
+        "en": "Juri"
+      },
+      "family": {
+        "cn": "牛牧",
+        "en": "Ushimaki"
+      }
+    },
+    {
+      "id": 26003,
+      "name": {
+        "cn": "芹奈",
+        "en": "Serina"
+      },
+      "family": {
+        "cn": "鹫见",
+        "en": "Sumi"
+      }
+    },
+    {
+      "id": 26004,
+      "name": {
+        "cn": "志美子",
+        "en": "Shimiko"
+      },
+      "family": {
+        "cn": "圆堂",
+        "en": "Endou"
+      }
+    },
+    {
+      "id": 26005,
+      "name": {
+        "cn": "喜美",
+        "en": "Yoshimi"
+      },
+      "family": {
+        "cn": "伊原木",
+        "en": "Ibaragi"
+      }
+    },
+    {
+      "id": 26006,
+      "name": {
+        "cn": "和香",
+        "en": "Nodoka"
+      },
+      "family": {
+        "cn": "天见",
+        "en": "Amami"
+      }
+    },
+    {
+      "id": 26007,
+      "name": {
+        "cn": "绫音(泳装)",
+        "en": "Ayane (Swimsuit)"
+      },
+      "family": {
+        "cn": "奥空",
+        "en": "Okusora"
+      }
+    },
+    {
+      "id": 26008,
+      "name": {
+        "cn": "静子(泳装)",
+        "en": "Shizuko (Swimsuit)"
+      },
+      "family": {
+        "cn": "河和",
+        "en": "Kawawa"
+      }
+    },
+    {
+      "id": 26009,
+      "name": {
+        "cn": "柚子(女仆装)",
+        "en": "Yuzu (Maid)"
+      },
+      "family": {
+        "cn": "花冈",
+        "en": "Hanaoka"
+      }
+    },
+    {
+      "id": 26010,
+      "name": {
+        "cn": "美游(泳装)",
+        "en": "Miyu (Swimsuit)"
+      },
+      "family": {
+        "cn": "霞泽",
+        "en": "Kasumizawa"
+      }
+    },
+    {
+      "id": 26011,
+      "name": {
+        "cn": "佐天泪子",
+        "en": "Saten Ruiko"
+      },
+      "family": {
+        "cn": "佐天",
+        "en": "Saten"
+      }
+    },
+    {
+      "id": 26012,
+      "name": {
+        "cn": "桐乃(泳装)",
+        "en": "Kirino (Swimsuit)"
+      },
+      "family": {
+        "cn": "中务",
+        "en": "Nakatsukasa"
+      }
+    },
+    {
+      "id": 26013,
+      "name": {
+        "cn": "亚津子(泳装)",
+        "en": "Atsuko (Swimsuit)"
+      },
+      "family": {
+        "cn": "秤",
+        "en": "Hakari"
+      }
+    },
+    {
+      "id": 26014,
+      "name": {
+        "cn": "花凛(制服)",
+        "en": "Karin (School)"
+      },
+      "family": {
+        "cn": "角楯",
+        "en": "Kakudate"
+      }
+    }
+  ]
+}

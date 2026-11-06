@@ -1,0 +1,192 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "离线动作候选；不等于已授权回放脚本。",
+  "type": "object",
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "recording_session_id": {
+      "type": "string"
+    },
+    "profile": {
+      "type": "object"
+    },
+    "actions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "schema_version": {
+            "const": "1.0"
+          },
+          "id": {
+            "type": "string",
+            "pattern": "^a[0-9]+$"
+          },
+          "kind": {
+            "enum": [
+              "skill_select",
+              "skill_cast",
+              "skill_cancel",
+              "menu_toggle",
+              "auto_toggle",
+              "speed_cycle",
+              "unclassified",
+              "pointer_motion"
+            ]
+          },
+          "label": {
+            "type": "string"
+          },
+          "t_ns": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "method": {
+            "type": "string"
+          },
+          "source_event_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "evidence_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "verification": {
+            "enum": [
+              "unverified",
+              "verified",
+              "supported",
+              "ambiguous",
+              "not_applicable",
+              "no_change_observed"
+            ]
+          },
+          "review_status": {
+            "const": "needs_review"
+          },
+          "executable": {
+            "const": false
+          },
+          "reason_text": {
+            "type": "string"
+          },
+          "slot": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 2
+          },
+          "target": {
+            "type": "object",
+            "properties": {
+              "point": {
+                "type": "array",
+                "items": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 1
+                },
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "kind": {
+                "const": "unknown"
+              },
+              "identity": {
+                "type": "null"
+              }
+            },
+            "required": [
+              "point",
+              "kind",
+              "identity"
+            ],
+            "additionalProperties": false
+          },
+          "drag_path": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "event_id": {
+                  "type": "string"
+                },
+                "offset_ns": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "point": {
+                  "type": "array",
+                  "items": {
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 1
+                  },
+                  "minItems": 2,
+                  "maxItems": 2
+                }
+              },
+              "required": [
+                "event_id",
+                "offset_ns",
+                "point"
+              ],
+              "additionalProperties": false
+            }
+          },
+          "state_before": {},
+          "state_after": {},
+          "skill_identity": {},
+          "signals": {
+            "type": "object",
+            "properties": {
+              "cost_drop": {
+                "type": "boolean"
+              },
+              "card_rotation": {
+                "type": "boolean"
+              },
+              "manual_mode_observed": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "cost_drop",
+              "card_rotation",
+              "manual_mode_observed"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "required": [
+          "schema_version",
+          "id",
+          "kind",
+          "label",
+          "t_ns",
+          "method",
+          "source_event_ids",
+          "evidence_ids",
+          "verification",
+          "review_status",
+          "executable",
+          "reason_text"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "schema_version",
+    "recording_session_id",
+    "profile",
+    "actions"
+  ],
+  "additionalProperties": false
+}

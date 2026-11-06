@@ -1,0 +1,174 @@
+{
+  "schema_version": "1.0",
+  "layout_version": "2.0",
+  "student_slug": "rio",
+  "id": "rio",
+  "content_id": 645824,
+  "actor_aliases": [
+    "莉音"
+  ],
+  "reference_size": [
+    1740,
+    979
+  ],
+  "variants": [
+    {
+      "id": "rio-copy-setup",
+      "phase": "copy_setup",
+      "banner_tags": [
+        "Big Sister"
+      ],
+      "cost_kind": "any",
+      "requires_cost_drop": false,
+      "requires_selected_actor": true,
+      "card_rotation": "optional",
+      "required_visual_fields": {},
+      "validation_status": "user_capture_not_independently_verified"
+    }
+  ],
+  "revision": 1,
+  "scope_note": "用户本地截图计划；不包含图片。请用未用于制作模板的新录制验证识别。",
+  "assets": [
+    {
+      "group": "portraits",
+      "tag": "基础卡面",
+      "image": "portraits/base-card-001.png",
+      "asset_key": "base-card",
+      "expected_size": [
+        80,
+        61
+      ],
+      "offline_identity": true,
+      "suggested_roi": [
+        1457,
+        812,
+        1537,
+        873
+      ]
+    },
+    {
+      "group": "cards",
+      "tag": "莉音原始复制技能卡",
+      "image": "cards/form-card-001.png",
+      "asset_key": "form-card",
+      "expected_size": [
+        125,
+        170
+      ],
+      "reference_only": true,
+      "optional": true,
+      "suggested_roi": [
+        1442,
+        765,
+        1567,
+        935
+      ]
+    },
+    {
+      "group": "tooltips",
+      "tag": "复制技能说明",
+      "image": "tooltips/skill-context-001.png",
+      "asset_key": "skill-context",
+      "expected_size": [
+        385,
+        30
+      ],
+      "suggested_roi": [
+        165,
+        105,
+        550,
+        135
+      ]
+    },
+    {
+      "group": "banners",
+      "tag": "Big Sister",
+      "image": "banners/copy-setup-001.png",
+      "asset_key": "copy-setup",
+      "expected_size": [
+        241,
+        28
+      ],
+      "suggested_roi": [
+        90,
+        241,
+        331,
+        269
+      ]
+    },
+    {
+      "group": "copy_cards",
+      "tag": "复制泳装未花",
+      "image": "copy_cards/copied-skill-001.png",
+      "asset_key": "copied-skill",
+      "expected_size": [
+        125,
+        170
+      ],
+      "reference_only": true,
+      "optional": true,
+      "suggested_roi": [
+        1442,
+        765,
+        1567,
+        935
+      ]
+    },
+    {
+      "group": "copy_cards",
+      "tag": "复制泳装妃咲",
+      "image": "copy_cards/copied-skill-002.png",
+      "asset_key": "copied-skill",
+      "expected_size": [
+        125,
+        170
+      ],
+      "reference_only": true,
+      "optional": true,
+      "suggested_roi": [
+        1303,
+        765,
+        1428,
+        935
+      ]
+    },
+    {
+      "group": "copy_cards",
+      "tag": "复制泳装瞬",
+      "image": "copy_cards/copied-skill-003.png",
+      "asset_key": "copied-skill",
+      "expected_size": [
+        125,
+        170
+      ],
+      "reference_only": true,
+      "optional": true,
+      "suggested_roi": [
+        1442,
+        765,
+        1567,
+        935
+      ]
+    },
+    {
+      "group": "copy_cards",
+      "tag": "再次复制泳装未花",
+      "image": "copy_cards/copied-skill-004.png",
+      "asset_key": "copied-skill",
+      "expected_size": [
+        125,
+        170
+      ],
+      "reference_only": true,
+      "optional": true,
+      "suggested_roi": [
+        1165,
+        765,
+        1290,
+        935
+      ]
+    }
+  ],
+  "special_mechanics": false,
+  "copy_marker_only": true
+}
